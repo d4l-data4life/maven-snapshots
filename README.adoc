@@ -1,0 +1,37 @@
+= D4L Maven Repository - Snapshots
+
+Maven repository for latest snapshots of our SDKs.
+
+== Usage
+
+Here you will find our latest snapshots that you could use to test and verify early on.
+
+NOTICE: Dependencies will be updated and cleaned regularly. So don't include them in any production release.
+
+=== Gradle
+
+Please add the following to your root `build.gradle` or `build.gradle.kts`
+
+[source, gradle]
+----
+// build.gradle.kts
+repositories {
+    // add
+    maven("https://raw.github.com/d4l-data4life/maven-snapshots/main/snapshots")
+}
+----
+
+== Maintenance
+
+=== Deploy
+
+Is done by our CI SDK bot. No manual deploys allowed.
+
+=== Cleanup
+
+As snapshot dependencies quickly pile up, it is necessary to regularly cleanup old dependencies.
+
+We have a script available that removes old dependencies:
+
+* `./cleanup.main.kts`
+* commit changes
