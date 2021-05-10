@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-sdk-kmp</groupId>
+  <artifactId>crypto-common</artifactId>
+  <versioning>
+    <latest>1.11.0-SNAPSHOT</latest>
+    <versions>
+      <version>1.11.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210510071420</lastUpdated>
+  </versioning>
+</metadata>
