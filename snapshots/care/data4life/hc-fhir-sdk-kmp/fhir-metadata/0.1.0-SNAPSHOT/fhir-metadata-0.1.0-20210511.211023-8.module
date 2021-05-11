@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-jvm/0.1.0-SNAPSHOT/fhir-jvm-0.1.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir-jvm",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "mqtu7n5lgnaq7i2twugwuqnhsu"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fhir-metadata-0.1.0-SNAPSHOT.jar",
+          "url": "fhir-metadata-0.1.0-SNAPSHOT.jar",
+          "size": 982010,
+          "sha512": "bc7eb302c72fdbfd4244c3496b9e2accf541f4917c7f42e4b4455cb473740272dc72f892956969426bfce400f35a5e3942e585bb592026319368d373e0de7e70",
+          "sha256": "52a4685d16e714912988db6d54b845026819dd6596a2e1f0b1207eff08d196bd",
+          "sha1": "ce401158217598254a4e8c40adcbb5304bb91b49",
+          "md5": "613f424a24ca58a4fc71898c4932c18c"
+        }
+      ]
+    }
+  ]
+}
