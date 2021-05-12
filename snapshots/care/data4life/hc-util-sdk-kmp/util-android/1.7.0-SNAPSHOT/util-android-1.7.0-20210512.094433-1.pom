@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>care.data4life.hc-util-sdk-kmp</groupId>
+  <artifactId>util-android</artifactId>
+  <version>1.7.0-SNAPSHOT</version>
+  <packaging>aar</packaging>
+  <name>hc-util-sdk-kmp</name>
+  <description>Util SDK provides basic definition and implementation of e.g. Base64, Sha1-hash, MIME types and data size restriction with relating error codes.</description>
+  <url>https://github.com/d4l-data4life/hc-util-sdk-kmp</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>Private</name>
+      <url>https://github.com/d4l-data4life/hc-util-sdk-kmp/blob/main/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>d4l-data4life</id>
+      <name>D4L data4life gGmbH</name>
+      <email>mobile@data4life.care</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/d4l-data4life/hc-util-sdk-kmp.git</connection>
+    <developerConnection>scm:git://github.com/d4l-data4life/hc-util-sdk-kmp.git</developerConnection>
+    <url>git://github.com/d4l-data4life/hc-util-sdk-kmp.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.4.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.21</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
