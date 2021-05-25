@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-android",
+    "version": "1.12.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ihcu3rj3gvcxlhyahobmzsdsfa"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.12.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.12.0-SNAPSHOT.aar",
+          "url": "auth-android-1.12.0-SNAPSHOT.aar",
+          "size": 44941,
+          "sha512": "b83402d1beddfb2a79a255472ff8825ea0fee1cff8234a355dc337d4965fdb4574ec111108c9a765664863713d0f0456934307d4aff7751ef8b1d5d274c53b21",
+          "sha256": "7efeb36f7d45838c24828453ebf8f4fc7d151c50f492c8e8744d1276b43794fa",
+          "sha1": "7cca9b605bc526d408d6a2d2b5089f413682ce54",
+          "md5": "33f838bfbb8cd5d89e79a0aaf8fe553f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.12.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.12.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.12.0-SNAPSHOT.aar",
+          "url": "auth-android-1.12.0-SNAPSHOT.aar",
+          "size": 44941,
+          "sha512": "b83402d1beddfb2a79a255472ff8825ea0fee1cff8234a355dc337d4965fdb4574ec111108c9a765664863713d0f0456934307d4aff7751ef8b1d5d274c53b21",
+          "sha256": "7efeb36f7d45838c24828453ebf8f4fc7d151c50f492c8e8744d1276b43794fa",
+          "sha1": "7cca9b605bc526d408d6a2d2b5089f413682ce54",
+          "md5": "33f838bfbb8cd5d89e79a0aaf8fe553f"
+        }
+      ]
+    }
+  ]
+}
