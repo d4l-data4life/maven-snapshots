@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.12.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "crtran7la5esrcopaux2puf4xm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.12.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.12.0-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.12.0-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "fc7e2dc934fb086990924c76f3490ce65ca874a7353e37a59fe84cab31b696d7b00c76abfcbd6cbc78832a7b556009c5bd626febc24d43ad1a7e9b2d13c1d58f",
+          "sha256": "9915698a31bc30bd9b703b9c2a5ac63c551b15fcc7e7060a8bc06a4dbf7f28f9",
+          "sha1": "bc9c1ea0fdc34458e71baec3dd8940f98b2bedd8",
+          "md5": "b6e09e946ce37a8a484e073ae13b2962"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.12.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.12.0-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.12.0-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "fc7e2dc934fb086990924c76f3490ce65ca874a7353e37a59fe84cab31b696d7b00c76abfcbd6cbc78832a7b556009c5bd626febc24d43ad1a7e9b2d13c1d58f",
+          "sha256": "9915698a31bc30bd9b703b9c2a5ac63c551b15fcc7e7060a8bc06a4dbf7f28f9",
+          "sha1": "bc9c1ea0fdc34458e71baec3dd8940f98b2bedd8",
+          "md5": "b6e09e946ce37a8a484e073ae13b2962"
+        }
+      ]
+    }
+  ]
+}
