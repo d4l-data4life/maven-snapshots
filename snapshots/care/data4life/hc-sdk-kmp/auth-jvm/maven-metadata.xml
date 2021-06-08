@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-jvm</artifactId>
   <versioning>
-    <latest>1.13.1-SNAPSHOT</latest>
+    <latest>1.13.2-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-SNAPSHOT</version>
       <version>1.12.0-SNAPSHOT</version>
       <version>1.13.0-SNAPSHOT</version>
       <version>1.13.1-SNAPSHOT</version>
+      <version>1.13.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210608090434</lastUpdated>
+    <lastUpdated>20210608105442</lastUpdated>
   </versioning>
 </metadata>
