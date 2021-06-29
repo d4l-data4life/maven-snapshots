@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-crypto-kmp",
+    "module": "crypto",
+    "version": "91f5616",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "vyvng5utczgy7p5escs4xhono4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "crypto-metadata-91f5616.jar",
+          "url": "crypto-91f5616.jar",
+          "size": 11505,
+          "sha512": "8ce3db25b29a896ef537143928339e7d0dabe5db98e1fa6986d5662c99c0966c2efa721f8c55494a76e1231884ab3ce495226d0faba85f3a65bbc26fffd5d923",
+          "sha256": "4e07f19eb916c19e7d073ee8f2d8ea7b62027c3f3a8e417899c47cf6e502cbed",
+          "sha1": "79df2488b210b5e8e205f90606baaad9e4297643",
+          "md5": "4866a878c15402a1e58cfd36a4fa4e2c"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../crypto-android-debug/91f5616/crypto-android-debug-91f5616.module",
+        "group": "care.data4life.hc-crypto-kmp",
+        "module": "crypto-android-debug",
+        "version": "91f5616"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../crypto-android-debug/91f5616/crypto-android-debug-91f5616.module",
+        "group": "care.data4life.hc-crypto-kmp",
+        "module": "crypto-android-debug",
+        "version": "91f5616"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../crypto-android/91f5616/crypto-android-91f5616.module",
+        "group": "care.data4life.hc-crypto-kmp",
+        "module": "crypto-android",
+        "version": "91f5616"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../crypto-android/91f5616/crypto-android-91f5616.module",
+        "group": "care.data4life.hc-crypto-kmp",
+        "module": "crypto-android",
+        "version": "91f5616"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../crypto-jvm/91f5616/crypto-jvm-91f5616.module",
+        "group": "care.data4life.hc-crypto-kmp",
+        "module": "crypto-jvm",
+        "version": "91f5616"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../crypto-jvm/91f5616/crypto-jvm-91f5616.module",
+        "group": "care.data4life.hc-crypto-kmp",
+        "module": "crypto-jvm",
+        "version": "91f5616"
+      }
+    }
+  ]
+}
