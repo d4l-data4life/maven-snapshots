@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
+  <artifactId>data-donation-sdk-metadata</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210630.092800</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210630092800</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.3-20210630.092800-1</value>
+        <updated>20210630092800</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.3-20210630.092800-1</value>
+        <updated>20210630092800</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.3-20210630.092800-1</value>
+        <updated>20210630092800</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.0.3-20210630.092800-1</value>
+        <updated>20210630092800</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
