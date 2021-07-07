@@ -3,12 +3,13 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-iosarm64</artifactId>
   <versioning>
-    <latest>0.0.3-SNAPSHOT</latest>
+    <latest>0.0.4-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
       <version>0.0.2-SNAPSHOT</version>
       <version>0.0.3-SNAPSHOT</version>
+      <version>0.0.4-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210707060338</lastUpdated>
+    <lastUpdated>20210707141631</lastUpdated>
   </versioning>
 </metadata>
