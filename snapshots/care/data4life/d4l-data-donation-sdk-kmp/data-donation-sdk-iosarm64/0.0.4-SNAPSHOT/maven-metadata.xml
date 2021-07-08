@@ -5,37 +5,37 @@
   <version>0.0.4-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210708.101601</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210708.104524</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210708101601</lastUpdated>
+    <lastUpdated>20210708104524</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.4-20210708.101601-2</value>
-        <updated>20210708101601</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.0.4-20210708.101601-2</value>
-        <updated>20210708101601</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>cinterop-iOSCryptoDD</classifier>
         <extension>klib</extension>
-        <value>0.0.4-20210708.101601-2</value>
-        <updated>20210708101601</updated>
+        <value>0.0.4-20210708.104524-3</value>
+        <updated>20210708104524</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.4-20210708.104524-3</value>
+        <updated>20210708104524</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.0.4-20210708.104524-3</value>
+        <updated>20210708104524</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.4-20210708.101601-2</value>
-        <updated>20210708101601</updated>
+        <value>0.0.4-20210708.104524-3</value>
+        <updated>20210708104524</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-20210708.101601-2</value>
-        <updated>20210708101601</updated>
+        <value>0.0.4-20210708.104524-3</value>
+        <updated>20210708104524</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
