@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../crypto-jvm/1.13.2/crypto-jvm-1.13.2.module",
+    "group": "care.data4life.sdk.hc-crypto-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "prpp2tshbvdhjho4hpqafndq5m"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "crypto-metadata-1.13.2.jar",
+          "url": "crypto-metadata-1.13.2.jar",
+          "size": 11505,
+          "sha512": "423514daeb5367bc09352a24871ab1ad09bb2e0afe71069ba4e1b4545b6cde2cf2bb1c62439ccb18411284edc7112391a06d52e900b7a02f15b26c82dfc42bea",
+          "sha256": "23707b617280e0cc141c14111fb6871d25287d927cb45fb16d18b07c6bcd43e5",
+          "sha1": "79020296c7f462c88d7ab2c5aa97720fe6df1590",
+          "md5": "3f8f3e03fb073bf0ed466b332e096a4f"
+        }
+      ]
+    }
+  ]
+}
