@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.sdk.hc-securestore-sdk-kmp</groupId>
+  <artifactId>securestore-android-debug</artifactId>
+  <versioning>
+    <latest>1.13.2</latest>
+    <release>1.13.2</release>
+    <versions>
+      <version>1.13.2</version>
+    </versions>
+    <lastUpdated>20210712113801</lastUpdated>
+  </versioning>
+</metadata>
