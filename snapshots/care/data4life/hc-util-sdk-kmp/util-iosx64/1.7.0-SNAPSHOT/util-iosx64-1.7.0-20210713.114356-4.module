@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.7.0-SNAPSHOT/util-1.7.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.7.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "hzxn3drzajamvikzz4sskpovhe"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util.klib",
+          "url": "util-iosx64-1.7.0-SNAPSHOT.klib",
+          "size": 26304,
+          "sha512": "761ef5ca36447164639698ec106d92b0369a8c61e4b3b84ddf40f17084fdde0043a1ef040b31e10384686e7224775f94f34e89918d6091e9535f3cecbb6075fb",
+          "sha256": "7dc8f90fce7a0d452ded183d37ecaf547101d5d2a19fc3d00541b42e74db7346",
+          "sha1": "e1c015168a8508823aad188d9012f1bb45145698",
+          "md5": "3af0f02411bcb22f1ae3fe82c918b7f6"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.7.0-SNAPSHOT/util-metadata-1.7.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.7.0-SNAPSHOT"
+      }
+    }
+  ]
+}
