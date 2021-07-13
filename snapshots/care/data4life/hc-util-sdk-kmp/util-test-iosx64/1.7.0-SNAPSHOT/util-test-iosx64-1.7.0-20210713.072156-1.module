@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-test/1.7.0-SNAPSHOT/util-test-1.7.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-test",
+    "version": "1.7.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "g4wfrskl5bd47goxnsdrkrp45i"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.4.3-native-mt",
+            "requires": "1.4.3-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-test.klib",
+          "url": "util-test-iosx64-1.7.0-SNAPSHOT.klib",
+          "size": 7049,
+          "sha512": "8d17e9c151f17dd15bcf34211280ccb0ab7c7bdb3898628faa2f85bdc9b48c27da9f9714766ff9a77d75863bbe79dc6c44febea1960363dc5efbcf3c56ff3d99",
+          "sha256": "2d610189ae70699afdbf95ad1e19d8a9c4b72da5c2ae964fde2d5f035def7492",
+          "sha1": "e9db4c531f04f2f7e9d6853f9e464d7c86429c6c",
+          "md5": "99cb5baf334678d7a827e6e16cccad18"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-test-metadata/1.7.0-SNAPSHOT/util-test-metadata-1.7.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-test-metadata",
+        "version": "1.7.0-SNAPSHOT"
+      }
+    }
+  ]
+}
