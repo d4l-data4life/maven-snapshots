@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../crypto/1.13.2-SNAPSHOT/crypto-1.13.2-SNAPSHOT.module",
+    "group": "care.data4life.hc-crypto-sdk-kmp",
+    "module": "crypto",
+    "version": "1.13.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "uhtto4g4lvghjijzwgdccgkxge"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-debug.aar",
+          "url": "crypto-android-debug-1.13.2-SNAPSHOT.aar",
+          "size": 63058,
+          "sha512": "dad1ad6a688db74a1aa68bd316b98beb5df002d7eec263920af27b6e4a0e4ef77f241b6537faca180f57f6b5c8650fcbfc9847631daf473e7d9753975aaa06fb",
+          "sha256": "fe20fe02ddab481256152a87c1097a0266f77bdabb9fbe010a41f2400b1be4ad",
+          "sha1": "1953c22128ae37954fde9ea2314ee48690fa6ff8",
+          "md5": "ee1adccc738e77e1becbb787753b22ca"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-debug.aar",
+          "url": "crypto-android-debug-1.13.2-SNAPSHOT.aar",
+          "size": 63058,
+          "sha512": "dad1ad6a688db74a1aa68bd316b98beb5df002d7eec263920af27b6e4a0e4ef77f241b6537faca180f57f6b5c8650fcbfc9847631daf473e7d9753975aaa06fb",
+          "sha256": "fe20fe02ddab481256152a87c1097a0266f77bdabb9fbe010a41f2400b1be4ad",
+          "sha1": "1953c22128ae37954fde9ea2314ee48690fa6ff8",
+          "md5": "ee1adccc738e77e1becbb787753b22ca"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../crypto-metadata/1.13.2-SNAPSHOT/crypto-metadata-1.13.2-SNAPSHOT.module",
+        "group": "care.data4life.hc-crypto-sdk-kmp",
+        "module": "crypto-metadata",
+        "version": "1.13.2-SNAPSHOT"
+      }
+    }
+  ]
+}
