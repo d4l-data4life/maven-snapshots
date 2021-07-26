@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-android-debug</artifactId>
   <versioning>
-    <latest>1.8.1</latest>
+    <latest>1.8.1-SNAPSHOT</latest>
     <release>1.8.1</release>
     <versions>
       <version>1.7.0-SNAPSHOT</version>
       <version>1.8.0-SNAPSHOT</version>
       <version>1.8.1</version>
+      <version>1.8.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210714142645</lastUpdated>
+    <lastUpdated>20210726122243</lastUpdated>
   </versioning>
 </metadata>
