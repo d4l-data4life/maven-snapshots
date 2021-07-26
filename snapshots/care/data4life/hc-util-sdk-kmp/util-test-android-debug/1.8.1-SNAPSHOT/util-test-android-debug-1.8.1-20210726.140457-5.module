@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-test/1.8.1-SNAPSHOT/util-test-1.8.1-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-test",
+    "version": "1.8.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "vzdwddbgzrddta7pfbonknl3wm"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "util-test-debug.aar",
+          "url": "util-test-android-debug-1.8.1-SNAPSHOT.aar",
+          "size": 13544,
+          "sha512": "d2244bdd8c751572190e2032a5b884bfaa0b0f672d90eeb22927b169564eed97151b33acd9f9b795911d0ea4f9a39c99b4b48f49169ec617bf7cb9cf5e9d5960",
+          "sha256": "63fc42bd4a44d6957b65d7936af49e1947965954b38233c577f350cea053b0cc",
+          "sha1": "fd1d12fec75a35ec3aa653948c48837dbe8929f6",
+          "md5": "43698ac96a320ad241d96fa1ade381fd"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-test-debug.aar",
+          "url": "util-test-android-debug-1.8.1-SNAPSHOT.aar",
+          "size": 13544,
+          "sha512": "d2244bdd8c751572190e2032a5b884bfaa0b0f672d90eeb22927b169564eed97151b33acd9f9b795911d0ea4f9a39c99b4b48f49169ec617bf7cb9cf5e9d5960",
+          "sha256": "63fc42bd4a44d6957b65d7936af49e1947965954b38233c577f350cea053b0cc",
+          "sha1": "fd1d12fec75a35ec3aa653948c48837dbe8929f6",
+          "md5": "43698ac96a320ad241d96fa1ade381fd"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-test-metadata/1.8.1-SNAPSHOT/util-test-metadata-1.8.1-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-test-metadata",
+        "version": "1.8.1-SNAPSHOT"
+      }
+    }
+  ]
+}
