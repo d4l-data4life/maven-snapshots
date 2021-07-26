@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-util-sdk-kmp</groupId>
+  <artifactId>util-ktor-test-iosx64</artifactId>
+  <versioning>
+    <latest>1.8.1-SNAPSHOT</latest>
+    <versions>
+      <version>1.8.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210726150219</lastUpdated>
+  </versioning>
+</metadata>
