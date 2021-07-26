@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-coroutine-test-jvm/1.8.1-SNAPSHOT/util-coroutine-test-jvm-1.8.1-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-coroutine-test-jvm",
+    "version": "1.8.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "cwanvvhtsfeofd4gidh64nxtcu"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-coroutine-test-metadata-1.8.1-SNAPSHOT.jar",
+          "url": "util-coroutine-test-metadata-1.8.1-SNAPSHOT.jar",
+          "size": 1777,
+          "sha512": "d8eefae6d1456ec3332a586bc946cbd14251e36c6b09f7d43a21d6d5e67c519a42bbb59148c05974913ce4606b6feb5d0f9fbe0f700d89bd2f461f8267aa6975",
+          "sha256": "ff3328392f0a68635ed5f2c8b5c19f78af27d5036d06c11ca9a3b3750bf621b0",
+          "sha1": "666429dfe370e3f91a0c526e647e4dd2efed6def",
+          "md5": "61a3dbc3ba3c57b36c0af3039532b4bd"
+        }
+      ]
+    }
+  ]
+}
