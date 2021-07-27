@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper",
+    "version": "1.5.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "skgm4l26kve7finkndkfesclri"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fhir-helper-metadata-1.5.0-SNAPSHOT.jar",
+          "url": "fhir-helper-1.5.0-SNAPSHOT.jar",
+          "size": 261,
+          "sha512": "52c678ac3cb49ccdfe6073f4f680ce7f7c0b1557e5cc4fe4e6163876447511c624c9ed8fc7f7d7d6b10561ed7bbdee6904fc47f11cf141421eccc6e8149e82a9",
+          "sha256": "3e0e8dc33df4295a8f52c641edbbade491fef971699af938a48b851b928166a1",
+          "sha1": "65969a2f3690e44e7361ff8283989f3cfa78295f",
+          "md5": "484d86185a10a879f5dc74e2b3024235"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-android-debug/1.5.0-SNAPSHOT/fhir-helper-android-debug-1.5.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-android-debug",
+        "version": "1.5.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-android-debug/1.5.0-SNAPSHOT/fhir-helper-android-debug-1.5.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-android-debug",
+        "version": "1.5.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-android/1.5.0-SNAPSHOT/fhir-helper-android-1.5.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-android",
+        "version": "1.5.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-android/1.5.0-SNAPSHOT/fhir-helper-android-1.5.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-android",
+        "version": "1.5.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-jvm/1.5.0-SNAPSHOT/fhir-helper-jvm-1.5.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-jvm",
+        "version": "1.5.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-jvm/1.5.0-SNAPSHOT/fhir-helper-jvm-1.5.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-jvm",
+        "version": "1.5.0-SNAPSHOT"
+      }
+    }
+  ]
+}
