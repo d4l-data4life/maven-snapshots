@@ -3,10 +3,11 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-ktor-test-metadata</artifactId>
   <versioning>
-    <latest>1.8.1-SNAPSHOT</latest>
+    <latest>1.9.0-SNAPSHOT</latest>
     <versions>
       <version>1.8.1-SNAPSHOT</version>
+      <version>1.9.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210726163559</lastUpdated>
+    <lastUpdated>20210727094328</lastUpdated>
   </versioning>
 </metadata>
