@@ -3,14 +3,15 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android</artifactId>
   <versioning>
-    <latest>0.0.5-SNAPSHOT</latest>
+    <latest>0.1.0-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
       <version>0.0.2-SNAPSHOT</version>
       <version>0.0.3-SNAPSHOT</version>
       <version>0.0.4-SNAPSHOT</version>
       <version>0.0.5-SNAPSHOT</version>
+      <version>0.1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210728144030</lastUpdated>
+    <lastUpdated>20210728155232</lastUpdated>
   </versioning>
 </metadata>
