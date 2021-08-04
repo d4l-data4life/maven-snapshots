@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-coroutine/1.9.0-SNAPSHOT/util-coroutine-1.9.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-coroutine",
+    "version": "1.9.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "63qqs5p2h5ehja6n7z7pbn5fru"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "util-coroutine-release.aar",
+          "url": "util-coroutine-android-1.9.0-SNAPSHOT.aar",
+          "size": 11856,
+          "sha512": "59b83f4109733ed72b7d31b67f23e43c65fa05a172ea8752150ab928d82020435ac6d4ddbf90dca099a3a9e7a34c81851d3c35aade8ac3c8d1cf75fca536adb5",
+          "sha256": "674f55d17f86484c8eb406fc8de1b2086a4de562f7b69ace9b973a050674df69",
+          "sha1": "737957816c9beb22df0604fdee7d465d7fa01874",
+          "md5": "fece25a8b580534102d647ef16dcd1a1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-coroutine-release.aar",
+          "url": "util-coroutine-android-1.9.0-SNAPSHOT.aar",
+          "size": 11856,
+          "sha512": "59b83f4109733ed72b7d31b67f23e43c65fa05a172ea8752150ab928d82020435ac6d4ddbf90dca099a3a9e7a34c81851d3c35aade8ac3c8d1cf75fca536adb5",
+          "sha256": "674f55d17f86484c8eb406fc8de1b2086a4de562f7b69ace9b973a050674df69",
+          "sha1": "737957816c9beb22df0604fdee7d465d7fa01874",
+          "md5": "fece25a8b580534102d647ef16dcd1a1"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-metadata/1.9.0-SNAPSHOT/util-coroutine-metadata-1.9.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-metadata",
+        "version": "1.9.0-SNAPSHOT"
+      }
+    }
+  ]
+}
