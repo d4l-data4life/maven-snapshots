@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.9.0-SNAPSHOT/util-1.9.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.9.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "lqlwzev7w5cfzhdaibshlhmq64"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.9.0-SNAPSHOT.aar",
+          "size": 14195,
+          "sha512": "1548a12087300061af90561c00b92f5cc0c71669bc14aad135066d3101950b1d3a758c08edcaf5731f8cad26aca1fc7e03257b3a102e8fec2c7efc8720a632e3",
+          "sha256": "45c0b384623afbe1f7b43b558428919defc4b64c99b1d8633c34c3a1e7c4ed33",
+          "sha1": "989bcce2575961f8ceeb21abcabdd9abbbeaf934",
+          "md5": "f1b62083685d131442596a98595d979c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.9.0-SNAPSHOT.aar",
+          "size": 14195,
+          "sha512": "1548a12087300061af90561c00b92f5cc0c71669bc14aad135066d3101950b1d3a758c08edcaf5731f8cad26aca1fc7e03257b3a102e8fec2c7efc8720a632e3",
+          "sha256": "45c0b384623afbe1f7b43b558428919defc4b64c99b1d8633c34c3a1e7c4ed33",
+          "sha1": "989bcce2575961f8ceeb21abcabdd9abbbeaf934",
+          "md5": "f1b62083685d131442596a98595d979c"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.9.0-SNAPSHOT/util-metadata-1.9.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.9.0-SNAPSHOT"
+      }
+    }
+  ]
+}

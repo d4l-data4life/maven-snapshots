@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.9.0-SNAPSHOT/util-1.9.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.9.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "lqlwzev7w5cfzhdaibshlhmq64"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util.klib",
+          "url": "util-iosx64-1.9.0-SNAPSHOT.klib",
+          "size": 23663,
+          "sha512": "0021b4dd4d39f2994b96d742da225da4e5fc5c1059283874d59261b92883b6bbe44c66092a2c79c0037ce62877b21d17a856f250db055538f4bf11fb53104cd4",
+          "sha256": "4c9aac6876e28ba22edd80931bfb77f93066928bec4dc2319cf92809ab3baf13",
+          "sha1": "fb1a2e220f1d8ac9d83cd3318300ea05324c68b5",
+          "md5": "ed958b6682828e92a2b023218e962c26"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.9.0-SNAPSHOT/util-metadata-1.9.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.9.0-SNAPSHOT"
+      }
+    }
+  ]
+}
