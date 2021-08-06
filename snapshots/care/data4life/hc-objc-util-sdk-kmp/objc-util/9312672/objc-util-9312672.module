@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "9312672",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "tjgiksdchfctnnkrdvghifkjki"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "objc-util-metadata-9312672.jar",
+          "url": "objc-util-9312672.jar",
+          "size": 261,
+          "sha512": "fd5dd25adfa131a760e73a9df35b2dfc5e77815140b5090699bb21b206bcc9a625e917e098a670f21a88bef90b821412e89dd705f792ffb8a2b5b17568ce0988",
+          "sha256": "73b313cbc52cf6f91537e659a913fe0ff7a4c4c66200b69072716b128b6824db",
+          "sha1": "6ef963ca0e4b6352595c9fa3db97b1af80979cb0",
+          "md5": "a0430275dc46504653ea8e2aeb2c76e3"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosarm64/9312672/objc-util-iosarm64-9312672.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosarm64",
+        "version": "9312672"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosx64/9312672/objc-util-iosx64-9312672.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosx64",
+        "version": "9312672"
+      }
+    }
+  ]
+}
