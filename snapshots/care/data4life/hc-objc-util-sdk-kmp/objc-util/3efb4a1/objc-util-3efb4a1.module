@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "3efb4a1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "x7jdx4ogtjhgtd7d35vd4doqcq"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "objc-util-metadata-3efb4a1.jar",
+          "url": "objc-util-3efb4a1.jar",
+          "size": 261,
+          "sha512": "1c6d71a4b50c995ab4a15cb716666838043b76891337cedb0563925118d44c5f8447a72752e35b32c7260d4b6fc713ab581c3bc4c08513d2b0805606177487f1",
+          "sha256": "456d5b1eca96a52ce8764a78b89c4e5a1b7748ebefe46f9b2f707ad5e9a80be8",
+          "sha1": "6db1ec85bf2dc012b549d474375ba58b1caa2864",
+          "md5": "2829880f41f88aed56d37f7700c78bfa"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosarm64/3efb4a1/objc-util-iosarm64-3efb4a1.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosarm64",
+        "version": "3efb4a1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosx64/3efb4a1/objc-util-iosx64-3efb4a1.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosx64",
+        "version": "3efb4a1"
+      }
+    }
+  ]
+}
