@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../objc-util/0.1.0-SNAPSHOT/objc-util-0.1.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "7qyuquwfg5arrkahhdi2moxosu"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util.klib",
+          "url": "objc-util-iosx64-0.1.0-SNAPSHOT.klib",
+          "size": 8671,
+          "sha512": "29ce3a5d0d695db639071f447eba27ed197478c98453872b1e0bf02ae77c2d0cf0aeb71c842ec88a7d0c30259f5a75f0ba7333fc7a3b45c8535c52218bb4727b",
+          "sha256": "26796ab228914c1995f5bcbca5ae47152aecc59fd6c4c603fab22f6fc37d7c94",
+          "sha1": "086ecc1a2526ab2533ea95a5cacc24f4ab38d167",
+          "md5": "160f51d791a408d4e99df18a85618f01"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../objc-util-metadata/0.1.0-SNAPSHOT/objc-util-metadata-0.1.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-metadata",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    }
+  ]
+}
