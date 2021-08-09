@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coroutine-util/9404ce4/coroutine-util-9404ce4.module",
+    "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+    "module": "coroutine-util",
+    "version": "9404ce4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "vnvocnlyjndv7djhickzexai4e"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coroutine-util.klib",
+          "url": "coroutine-util-iosarm64-9404ce4.klib",
+          "size": 6771,
+          "sha512": "89d1eec22431167a0c3072273ced741d701c02d98fc78e2d52a1335f1f39f2c6a23527c35294ad47abbc1bc0ce9899b6ef8e4e8ccb96e2cb811995c4baccc882",
+          "sha256": "0bf474caf4c99d6633d1c0518cfe15743c5adbbcaa54c4a305956e589c60c20e",
+          "sha1": "5c85561cf640ff6bfb4a1ced0b4d51ecfc932f6c",
+          "md5": "1075c1dd41eac499155a835acc81a770"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../coroutine-util-metadata/9404ce4/coroutine-util-metadata-9404ce4.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util-metadata",
+        "version": "9404ce4"
+      }
+    }
+  ]
+}
