@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/ecb7fdf/error-ecb7fdf.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "ecb7fdf",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "bl3ufus66jam5cgfkogyayazsm"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "error-jvm-ecb7fdf.jar",
+          "url": "error-jvm-ecb7fdf.jar",
+          "size": 5992,
+          "sha512": "5751db5ab92eba5b4ac815adda4166eed5a5c4973d5e9f0491bd24514f0a9b3b603d8c291e35e32317338ad542a522e3ec1ff0ec6dd5468d5db65050cd04c5c5",
+          "sha256": "c2d0d8ae6ffbb7ff954d6fdafef3dcf1293728a1e392261361961dc168de038d",
+          "sha1": "2da929394894d498d52a2de803438d4f4ccbfbf2",
+          "md5": "5a4c712b8477b56d4649795c1bd6d53b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-jvm-ecb7fdf.jar",
+          "url": "error-jvm-ecb7fdf.jar",
+          "size": 5992,
+          "sha512": "5751db5ab92eba5b4ac815adda4166eed5a5c4973d5e9f0491bd24514f0a9b3b603d8c291e35e32317338ad542a522e3ec1ff0ec6dd5468d5db65050cd04c5c5",
+          "sha256": "c2d0d8ae6ffbb7ff954d6fdafef3dcf1293728a1e392261361961dc168de038d",
+          "sha1": "2da929394894d498d52a2de803438d4f4ccbfbf2",
+          "md5": "5a4c712b8477b56d4649795c1bd6d53b"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../error-metadata/ecb7fdf/error-metadata-ecb7fdf.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-metadata",
+        "version": "ecb7fdf"
+      }
+    }
+  ]
+}
