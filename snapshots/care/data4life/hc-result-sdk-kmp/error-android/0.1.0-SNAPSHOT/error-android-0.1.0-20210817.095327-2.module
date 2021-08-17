@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/0.1.0-SNAPSHOT/error-0.1.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "7yudo3kgezbyzndhk63sb4i6f4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "error-release.aar",
+          "url": "error-android-0.1.0-SNAPSHOT.aar",
+          "size": 5991,
+          "sha512": "bbd095f4d1e3fd159ed70bf140e164cfbcdb50310494a80c32350fbabcda19a2b52d8c7cc8fc0bb615981edfdd4b19caf21d73dd9c65630352a6fb6af94fcc3d",
+          "sha256": "873efdeef4c91e45c5fc46af6e4d8f32be352103c8611c1db85ca196c6a88403",
+          "sha1": "35d627549c5bfb44b6a7a84fe72aa3a2ed74ce7b",
+          "md5": "2b01ca7eba0b4ffc21dbaa5bce310979"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-release.aar",
+          "url": "error-android-0.1.0-SNAPSHOT.aar",
+          "size": 5991,
+          "sha512": "bbd095f4d1e3fd159ed70bf140e164cfbcdb50310494a80c32350fbabcda19a2b52d8c7cc8fc0bb615981edfdd4b19caf21d73dd9c65630352a6fb6af94fcc3d",
+          "sha256": "873efdeef4c91e45c5fc46af6e4d8f32be352103c8611c1db85ca196c6a88403",
+          "sha1": "35d627549c5bfb44b6a7a84fe72aa3a2ed74ce7b",
+          "md5": "2b01ca7eba0b4ffc21dbaa5bce310979"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../error-metadata/0.1.0-SNAPSHOT/error-metadata-0.1.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-metadata",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    }
+  ]
+}
