@@ -1,0 +1,47 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../flow-jvm/0.1.0-SNAPSHOT/flow-jvm-0.1.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "flow-jvm",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "spvfgazykrhyvd7uullcphmou4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-metadata-0.1.0-SNAPSHOT.jar",
+          "url": "flow-metadata-0.1.0-SNAPSHOT.jar",
+          "size": 2807,
+          "sha512": "16bb96f8982fd255752b53211c7358cdf359e0fc2c984d01eade4467319cda864dc1482db4597a25cc5cf0abb7a34286a1068963e60bef175b74b1284518c76b",
+          "sha256": "a18555d1bb30be977a9793e3adfb6a96c1992946a2b975029a271920565dda13",
+          "sha1": "dcf362e2dfe2e55e9dfb3de4d7e43b83a1bb51f2",
+          "md5": "5383f6f32cd4a5cfc771efb7113e3826"
+        }
+      ]
+    }
+  ]
+}
