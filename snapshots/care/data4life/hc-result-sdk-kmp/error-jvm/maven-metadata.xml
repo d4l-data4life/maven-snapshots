@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>error-jvm</artifactId>
   <versioning>
-    <latest>9d7a4ed</latest>
+    <latest>0.1.0-SNAPSHOT</latest>
     <release>9d7a4ed</release>
     <versions>
       <version>ecb7fdf</version>
       <version>9d7a4ed</version>
+      <version>0.1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210809193349</lastUpdated>
+    <lastUpdated>20210817081705</lastUpdated>
   </versioning>
 </metadata>
