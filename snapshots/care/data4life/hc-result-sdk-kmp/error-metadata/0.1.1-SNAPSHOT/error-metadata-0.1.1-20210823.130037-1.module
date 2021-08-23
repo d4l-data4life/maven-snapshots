@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error-jvm/0.1.1-SNAPSHOT/error-jvm-0.1.1-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error-jvm",
+    "version": "0.1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "iexc2zqcd5helj3ir6xaq5hsvm"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "error-metadata-0.1.1-SNAPSHOT.jar",
+          "url": "error-metadata-0.1.1-SNAPSHOT.jar",
+          "size": 1923,
+          "sha512": "e5e2fa2277ee93e72f92a325ef9378caf87ca168fe89d6997ea119cbf551f7dd66f6c02e98a87f100d526448210a0cd710d95ee369a8c9b365c08e0e249cafbf",
+          "sha256": "7c455096db02925566f970d6607999d3a8b51144d8a2dd176f664637d65f8c36",
+          "sha1": "ceeacb2497a1826a7c8dccbaa6dc5c1d6171f559",
+          "md5": "5af5ead40379d9c4248f07f708040c73"
+        }
+      ]
+    }
+  ]
+}

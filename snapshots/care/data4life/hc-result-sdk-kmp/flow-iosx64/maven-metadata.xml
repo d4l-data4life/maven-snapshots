@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>flow-iosx64</artifactId>
   <versioning>
-    <latest>0.1.0-SNAPSHOT</latest>
+    <latest>0.1.1-SNAPSHOT</latest>
     <release>9d7a4ed</release>
     <versions>
       <version>ecb7fdf</version>
       <version>9d7a4ed</version>
       <version>0.1.0-SNAPSHOT</version>
+      <version>0.1.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210817110528</lastUpdated>
+    <lastUpdated>20210823130143</lastUpdated>
   </versioning>
 </metadata>
