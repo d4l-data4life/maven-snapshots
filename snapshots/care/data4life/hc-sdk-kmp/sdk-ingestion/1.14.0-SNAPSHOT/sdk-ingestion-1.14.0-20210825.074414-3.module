@@ -1,0 +1,321 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-ingestion",
+    "version": "1.14.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "csxhjus2jjeennngczv23lfgze"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.14.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            },
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ingestion-1.14.0-SNAPSHOT.jar",
+          "url": "sdk-ingestion-1.14.0-SNAPSHOT.jar",
+          "size": 18325,
+          "sha512": "b05b6f9b739f4e853f489bb7046151cda56c2c4fc76f51670f420e7ab77d2cc5c7bc78fc44cd4af38279c61a60a14b7ddc32fcac1d21dd78914d6b3a58e5f500",
+          "sha256": "ce7a74ef37f983aa1da3f8791c0f551c60d50166e64522e94ca04624c9379a8a",
+          "sha1": "4578a011087ad3060c51f0ae56211aff1598f4b6",
+          "md5": "37e81b15366f6c200484576c95215c5f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-auth-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.13.2"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-crypto-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.13.2"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.13.2"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+          "module": "fhir-helper-jvm",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            }
+          ]
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            }
+          ]
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.14.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android-debug"
+            },
+            {
+              "group": "care.data4life.hc-securestore-sdk-kmp",
+              "module": "securestore-android-debug"
+            },
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ingestion-1.14.0-SNAPSHOT.jar",
+          "url": "sdk-ingestion-1.14.0-SNAPSHOT.jar",
+          "size": 18325,
+          "sha512": "b05b6f9b739f4e853f489bb7046151cda56c2c4fc76f51670f420e7ab77d2cc5c7bc78fc44cd4af38279c61a60a14b7ddc32fcac1d21dd78914d6b3a58e5f500",
+          "sha256": "ce7a74ef37f983aa1da3f8791c0f551c60d50166e64522e94ca04624c9379a8a",
+          "sha1": "4578a011087ad3060c51f0ae56211aff1598f4b6",
+          "md5": "37e81b15366f6c200484576c95215c5f"
+        }
+      ]
+    }
+  ]
+}
