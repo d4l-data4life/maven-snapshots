@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-securestore-sdk-kmp</groupId>
   <artifactId>securestore-metadata</artifactId>
   <versioning>
-    <latest>1.13.2</latest>
+    <latest>1.13.2-SNAPSHOT</latest>
     <release>1.13.2</release>
     <versions>
       <version>1.13.2</version>
+      <version>1.13.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210713174040</lastUpdated>
+    <lastUpdated>20210825151927</lastUpdated>
   </versioning>
 </metadata>
