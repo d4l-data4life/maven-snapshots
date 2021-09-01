@@ -5,37 +5,37 @@
   <version>1.15.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210901.111327</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210901.132545</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210901111327</lastUpdated>
+    <lastUpdated>20210901132545</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
+        <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.15.0-20210901.111327-1</value>
-        <updated>20210901111327</updated>
+        <value>1.15.0-20210901.132545-2</value>
+        <updated>20210901132545</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.15.0-20210901.111327-1</value>
-        <updated>20210901111327</updated>
+        <extension>module</extension>
+        <value>1.15.0-20210901.132545-2</value>
+        <updated>20210901132545</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.15.0-20210901.132545-2</value>
+        <updated>20210901132545</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.15.0-20210901.111327-1</value>
-        <updated>20210901111327</updated>
+        <value>1.15.0-20210901.132545-2</value>
+        <updated>20210901132545</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.15.0-20210901.111327-1</value>
-        <updated>20210901111327</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.15.0-20210901.111327-1</value>
-        <updated>20210901111327</updated>
+        <extension>pom</extension>
+        <value>1.15.0-20210901.132545-2</value>
+        <updated>20210901132545</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
