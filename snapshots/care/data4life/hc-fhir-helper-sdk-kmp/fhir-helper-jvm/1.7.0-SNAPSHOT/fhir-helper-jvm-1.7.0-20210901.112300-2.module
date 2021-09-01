@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-helper/1.7.0-SNAPSHOT/fhir-helper-1.7.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper",
+    "version": "1.7.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "m6bfjw5m5fadtlpm6ik3fm75tu"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error-jvm",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-jvm-1.7.0-SNAPSHOT.jar",
+          "url": "fhir-helper-jvm-1.7.0-SNAPSHOT.jar",
+          "size": 116366,
+          "sha512": "ed38431988723c7215df483b70877fd2a994f7a93a93636119dd1a161a8cab0c4d0586f046c5a79c39bd910c83172ce97362dcb8b018c3525cbc316f7a2d7b65",
+          "sha256": "970652c7cb1f2917e06e65014dadb09900ae7ff4ffa7713ed97b8c3ba3fbbaf2",
+          "sha1": "bfa3541ba0ee1a020c64c7325b419d548bf52710",
+          "md5": "cbe7c37ab80517d346f2722382cb43f1"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error-jvm",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-jvm-1.7.0-SNAPSHOT.jar",
+          "url": "fhir-helper-jvm-1.7.0-SNAPSHOT.jar",
+          "size": 116366,
+          "sha512": "ed38431988723c7215df483b70877fd2a994f7a93a93636119dd1a161a8cab0c4d0586f046c5a79c39bd910c83172ce97362dcb8b018c3525cbc316f7a2d7b65",
+          "sha256": "970652c7cb1f2917e06e65014dadb09900ae7ff4ffa7713ed97b8c3ba3fbbaf2",
+          "sha1": "bfa3541ba0ee1a020c64c7325b419d548bf52710",
+          "md5": "cbe7c37ab80517d346f2722382cb43f1"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-metadata/1.7.0-SNAPSHOT/fhir-helper-metadata-1.7.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-metadata",
+        "version": "1.7.0-SNAPSHOT"
+      }
+    }
+  ]
+}
