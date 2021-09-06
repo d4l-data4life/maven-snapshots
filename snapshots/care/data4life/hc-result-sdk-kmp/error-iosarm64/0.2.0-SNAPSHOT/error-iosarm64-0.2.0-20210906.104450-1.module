@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/0.2.0-SNAPSHOT/error-0.2.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "wb7mdlasnndulfslcq5hymzkbi"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error.klib",
+          "url": "error-iosarm64-0.2.0-SNAPSHOT.klib",
+          "size": 6718,
+          "sha512": "1b66e11d6577421c4fde41b01e620197661159570cf7527afe56a7a5dd7d55fec41618b8fbc7de2b6dd59c8480815c0a836371f701d7369fa299195916eb0fea",
+          "sha256": "06bfe24aaff476a7f41982dd9793758e7809c870e456c8a7156f4753aa2f6127",
+          "sha1": "64b6d5023d7d61e9097ecd2faae293d171e12845",
+          "md5": "4e0a8ddae3ac56bab8ea8c0d3753a964"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../error-metadata/0.2.0-SNAPSHOT/error-metadata-0.2.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-metadata",
+        "version": "0.2.0-SNAPSHOT"
+      }
+    }
+  ]
+}

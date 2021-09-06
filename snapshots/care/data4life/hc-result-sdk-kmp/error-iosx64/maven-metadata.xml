@@ -3,14 +3,15 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>error-iosx64</artifactId>
   <versioning>
-    <latest>0.1.1-SNAPSHOT</latest>
+    <latest>0.2.0-SNAPSHOT</latest>
     <release>9d7a4ed</release>
     <versions>
       <version>ecb7fdf</version>
       <version>9d7a4ed</version>
       <version>0.1.0-SNAPSHOT</version>
       <version>0.1.1-SNAPSHOT</version>
+      <version>0.2.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210823154732</lastUpdated>
+    <lastUpdated>20210906104606</lastUpdated>
   </versioning>
 </metadata>
