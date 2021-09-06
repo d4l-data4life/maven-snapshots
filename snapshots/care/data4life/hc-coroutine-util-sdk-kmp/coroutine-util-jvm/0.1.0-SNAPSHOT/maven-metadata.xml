@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-coroutine-util-sdk-kmp</groupId>
+  <artifactId>coroutine-util-jvm</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210906.102613</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210906102613</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-20210906.102613-1</value>
+        <updated>20210906102613</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.0-20210906.102613-1</value>
+        <updated>20210906102613</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-20210906.102613-1</value>
+        <updated>20210906102613</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-20210906.102613-1</value>
+        <updated>20210906102613</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
