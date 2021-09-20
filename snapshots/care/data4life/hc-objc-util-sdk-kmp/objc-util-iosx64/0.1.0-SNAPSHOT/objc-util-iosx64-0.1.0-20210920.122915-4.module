@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../objc-util/0.1.0-SNAPSHOT/objc-util-0.1.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util.klib",
+          "url": "objc-util-iosx64-0.1.0-SNAPSHOT.klib",
+          "size": 8882,
+          "sha512": "ba9439706673c7bce71692adf48cb14c1056a107c7dacdf696d227e7f40d7b0bd875d6b5d13e711b81f0f836760266c51296208a666c69a2f691dd8a7710f7a0",
+          "sha256": "1be2bdcfb0c3bdf00528903465345ccf5e0f9b5cffcbe284688ad14080fff55a",
+          "sha1": "3927b4af7a5de28dee43fbdde2074d611f9ce2fe",
+          "md5": "6680587c64d67f1afb31799b872d2972"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util-iosx64-0.1.0-SNAPSHOT-metadata.jar",
+          "url": "objc-util-iosx64-0.1.0-SNAPSHOT-metadata.jar",
+          "size": 5763,
+          "sha512": "08c860f98783e3a9b7d1041c8c7e394c7c2da6a66e965e314a0e095ca5645c74c41561980247bce50d8021529ee3c88fa67248e86cc2ff17aa1f7e0d328a87b3",
+          "sha256": "5ba6706129a5eafb5e54a71d97ed2ab2d5b38c9bd91796f450abeedb2ab79291",
+          "sha1": "53a1c19d14652dd8e4d96b7229c540e7602f559a",
+          "md5": "689091acdc3eef90091af8d6eae6891d"
+        }
+      ]
+    }
+  ]
+}
