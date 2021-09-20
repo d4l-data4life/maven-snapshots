@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../objc-util/0.1.0-SNAPSHOT/objc-util-0.1.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util.klib",
+          "url": "objc-util-iosarm64-0.1.0-SNAPSHOT.klib",
+          "size": 8900,
+          "sha512": "a378cc690f4a70147cc2fba88d320ae78ddef5a52fc052df495ec2e4e4a4af7dc5248a1da44abfd501841864055003addf0ccaede62ac84131638b462fb94c81",
+          "sha256": "632d6a5b32ac7072e3768c3694f4c36cad46bed506a02c2a0652c77cd2a62637",
+          "sha1": "57ad6b32232eff5e9d970ce592cb41c91e314d23",
+          "md5": "6e049c86649ee63b9999f919da94af76"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util-iosarm64-0.1.0-SNAPSHOT-metadata.jar",
+          "url": "objc-util-iosarm64-0.1.0-SNAPSHOT-metadata.jar",
+          "size": 5763,
+          "sha512": "029f80329f4af71772d4add143a1617c1841ad4bdccf1316123f2207212214d76a6fd6014422cfc4556f530437f8a0562e8eec32095bdc9bc24d59b249f937c4",
+          "sha256": "c13fcbd9bda3cffa965206d3e0316767b7a579654b108ef92a1cc237a80a0936",
+          "sha1": "ccb180ec93103f2d29b3c68c7801031c7e10bf77",
+          "md5": "8c5c463e449951e961ce89bc549e205d"
+        }
+      ]
+    }
+  ]
+}
