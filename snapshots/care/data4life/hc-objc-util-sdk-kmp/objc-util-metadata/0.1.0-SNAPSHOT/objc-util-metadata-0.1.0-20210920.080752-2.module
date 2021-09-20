@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../objc-util-iosx64/0.1.0-SNAPSHOT/objc-util-iosx64-0.1.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util-iosx64",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "dg6wylqkozf25n5tn6rpk753zm"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "objc-util-metadata-0.1.0-SNAPSHOT.jar",
+          "url": "objc-util-metadata-0.1.0-SNAPSHOT.jar",
+          "size": 261,
+          "sha512": "fb62b6c4b3febbfb143fe33d4ef092e9b89ab4f5c2eb6e1158171de2aba28091405120da9f681216eb01e614d78dc7f8bff7b42694b8851ba97242334b805b13",
+          "sha256": "2caa5f840efc0f5db6ea8e03eea9d9c2cc7de53cdc1072e0c99f4c1091ccf5bf",
+          "sha1": "74b458c9b925df2ce9c8321adec8a4d785c59e98",
+          "md5": "c8663323e4c5392c45db844c0d04bb45"
+        }
+      ]
+    }
+  ]
+}
