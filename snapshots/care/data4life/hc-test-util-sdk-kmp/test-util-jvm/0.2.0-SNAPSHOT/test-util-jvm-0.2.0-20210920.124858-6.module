@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.2.0-SNAPSHOT/test-util-0.2.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-jvm-0.2.0-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.2.0-SNAPSHOT.jar",
+          "size": 12792,
+          "sha512": "b95d99b9f28b22e68349ba016a9d0f41b618ab212a283e69499468f4a17638a9406ede2e52cf898ec3708ad42bdbf53b97bce381b8c44ca57e78176eb9fb883d",
+          "sha256": "4cad5577d7598a05b90180815a2aa59f60ad71a8168f88a0e1b47417a044c2fb",
+          "sha1": "38d0c7ef30679788adbe7a2a276be6193c0a978e",
+          "md5": "44cebc6392dbb3c471bc0f036a1349bd"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-jvm-0.2.0-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.2.0-SNAPSHOT.jar",
+          "size": 12792,
+          "sha512": "b95d99b9f28b22e68349ba016a9d0f41b618ab212a283e69499468f4a17638a9406ede2e52cf898ec3708ad42bdbf53b97bce381b8c44ca57e78176eb9fb883d",
+          "sha256": "4cad5577d7598a05b90180815a2aa59f60ad71a8168f88a0e1b47417a044c2fb",
+          "sha1": "38d0c7ef30679788adbe7a2a276be6193c0a978e",
+          "md5": "44cebc6392dbb3c471bc0f036a1349bd"
+        }
+      ]
+    }
+  ]
+}
