@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../flow/0.2.0-SNAPSHOT/flow-0.2.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "flow",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "f4gyqtxugzbqvb6azxdr6zgmle"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow.klib",
+          "url": "flow-iosarm64-0.2.0-SNAPSHOT.klib",
+          "size": 10363,
+          "sha512": "888192ebe2a88e5e9d392fd42a077493c89d8ae6b1a5f550b9ccd4c0ff46ef85ad9b9b64cbfd87b977914797e8b00ef6a715fb426f6d0efdf017ad20b75c7e43",
+          "sha256": "31f954f4c08ca42f1756b5836200fb983d4dd822490c6dc4dbb4bd90d370917c",
+          "sha1": "7872116ddbd1923d373be8125f2d037153a88e9c",
+          "md5": "03c5716417669094f3844dc85ea0c3e7"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-iosarm64-0.2.0-SNAPSHOT-metadata.jar",
+          "url": "flow-iosarm64-0.2.0-SNAPSHOT-metadata.jar",
+          "size": 5569,
+          "sha512": "e540961d675eb842d93b6bff45026e624a52aea89f217106aa55c1009d26deb6489054de97cadc64a39e18ea514eff9027775dd19e7201b870441f127d894ffa",
+          "sha256": "91ee2568fab64355365d6afa2dc7c863aa19686db53a0280f539d10b8be85698",
+          "sha1": "e2ceaa93918aa4b65583c5da26e4c4b42bfa67c2",
+          "md5": "08345ab9600347d063dfb7ca94b28b64"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../flow/0.2.0-SNAPSHOT/flow-0.2.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow",
+        "version": "0.2.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../flow/0.2.0-SNAPSHOT/flow-0.2.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow",
+        "version": "0.2.0-SNAPSHOT"
+      }
+    }
+  ]
+}
