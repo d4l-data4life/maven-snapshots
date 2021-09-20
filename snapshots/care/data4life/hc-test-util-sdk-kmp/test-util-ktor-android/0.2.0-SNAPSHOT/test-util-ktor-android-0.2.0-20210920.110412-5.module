@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor/0.2.0-SNAPSHOT/test-util-ktor-0.2.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-release.aar",
+          "url": "test-util-ktor-android-0.2.0-SNAPSHOT.aar",
+          "size": 25478,
+          "sha512": "279b3f8a16f19aa337ec8139266d8867dca77ef5ddda6bc413be030deb8921d1be357e27a2787dbc0d0aed559eb019ad3537c3156ca80cbb03aae0a0e97cc5f2",
+          "sha256": "78e1d22a7a64f5a184fcb06e8db8cbbd9e5db662fea2ebef22d458752472245f",
+          "sha1": "a71589213265ebc398aec551acdb8e1c7c1488f0",
+          "md5": "afc2a4a40eaac94e478801658332338d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-release.aar",
+          "url": "test-util-ktor-android-0.2.0-SNAPSHOT.aar",
+          "size": 25478,
+          "sha512": "279b3f8a16f19aa337ec8139266d8867dca77ef5ddda6bc413be030deb8921d1be357e27a2787dbc0d0aed559eb019ad3537c3156ca80cbb03aae0a0e97cc5f2",
+          "sha256": "78e1d22a7a64f5a184fcb06e8db8cbbd9e5db662fea2ebef22d458752472245f",
+          "sha1": "a71589213265ebc398aec551acdb8e1c7c1488f0",
+          "md5": "afc2a4a40eaac94e478801658332338d"
+        }
+      ]
+    }
+  ]
+}

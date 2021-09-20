@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.2.0-SNAPSHOT/test-util-coroutine-0.2.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.2.0-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.2.0-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "68ec11304d1a9fb0747761eb07d60d555f71db47be28de9b04a5d033816f708b1aaa7b3011959a25ee6a42350b57068e2e6417fa6377a5cbb3ad62482eb51dfb",
+          "sha256": "fa53aced650fd19611d2e961a9396555caf58a51dba56a8eff5841e3ce28ef4c",
+          "sha1": "30192f452f2ef0dd98c8cf6d8991443c2cd13d51",
+          "md5": "b83d523da6d43993ba38f8845a3c2ae8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.2.0-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.2.0-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "68ec11304d1a9fb0747761eb07d60d555f71db47be28de9b04a5d033816f708b1aaa7b3011959a25ee6a42350b57068e2e6417fa6377a5cbb3ad62482eb51dfb",
+          "sha256": "fa53aced650fd19611d2e961a9396555caf58a51dba56a8eff5841e3ce28ef4c",
+          "sha1": "30192f452f2ef0dd98c8cf6d8991443c2cd13d51",
+          "md5": "b83d523da6d43993ba38f8845a3c2ae8"
+        }
+      ]
+    }
+  ]
+}

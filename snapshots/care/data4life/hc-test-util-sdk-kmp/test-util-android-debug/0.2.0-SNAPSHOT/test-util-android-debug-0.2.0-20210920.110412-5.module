@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.2.0-SNAPSHOT/test-util-0.2.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "test-util-debug.aar",
+          "url": "test-util-android-debug-0.2.0-SNAPSHOT.aar",
+          "size": 8158,
+          "sha512": "33c9f510164e3e744ff3768b0a4e3efa9bd09016f7e1641bb4c38587ec8da9a9496ef3dd1c663deee103dd418636da1527c8cf70df527aed123d4a4a5026c9d2",
+          "sha256": "5bde6fa8c1f3d5a6ff9dc532c5f2c4cc77a84b5ac04dacb0283fcbe6e8a415b7",
+          "sha1": "b3c4a679b8d51d8512cf3151da28130b1cad3e0d",
+          "md5": "be6a3a4d5d74fe3db0a027ba472cba7f"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "robolectric",
+          "version": {
+            "requires": "4.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-debug.aar",
+          "url": "test-util-android-debug-0.2.0-SNAPSHOT.aar",
+          "size": 8158,
+          "sha512": "33c9f510164e3e744ff3768b0a4e3efa9bd09016f7e1641bb4c38587ec8da9a9496ef3dd1c663deee103dd418636da1527c8cf70df527aed123d4a4a5026c9d2",
+          "sha256": "5bde6fa8c1f3d5a6ff9dc532c5f2c4cc77a84b5ac04dacb0283fcbe6e8a415b7",
+          "sha1": "b3c4a679b8d51d8512cf3151da28130b1cad3e0d",
+          "md5": "be6a3a4d5d74fe3db0a027ba472cba7f"
+        }
+      ]
+    }
+  ]
+}
