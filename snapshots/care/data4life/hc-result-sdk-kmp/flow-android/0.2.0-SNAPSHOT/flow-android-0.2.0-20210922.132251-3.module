@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../flow/0.2.0-SNAPSHOT/flow-0.2.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "flow",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-release.aar",
+          "url": "flow-android-0.2.0-SNAPSHOT.aar",
+          "size": 9952,
+          "sha512": "fa831f3d62c41d50c9dcf4f38342df263b02c65f8916db3398198cce5deaafced644bf75cffef8ce4faf22f73aeb6b59898467c752a74993119ed18e561c9266",
+          "sha256": "299121d4c7c0bbd977e7f8be80c534d856c769ccad2839ddeeb0dfd0063f1d14",
+          "sha1": "52176604430fff8d6f4b9bc8c21a56af159758f2",
+          "md5": "20863d23acff6fd08fee3ac995190f31"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-release.aar",
+          "url": "flow-android-0.2.0-SNAPSHOT.aar",
+          "size": 9952,
+          "sha512": "fa831f3d62c41d50c9dcf4f38342df263b02c65f8916db3398198cce5deaafced644bf75cffef8ce4faf22f73aeb6b59898467c752a74993119ed18e561c9266",
+          "sha256": "299121d4c7c0bbd977e7f8be80c534d856c769ccad2839ddeeb0dfd0063f1d14",
+          "sha1": "52176604430fff8d6f4b9bc8c21a56af159758f2",
+          "md5": "20863d23acff6fd08fee3ac995190f31"
+        }
+      ]
+    }
+  ]
+}
