@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.2.0-SNAPSHOT/fhir-0.2.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fhir-debug.aar",
+          "url": "fhir-android-debug-0.2.0-SNAPSHOT.aar",
+          "size": 16015805,
+          "sha512": "d0cfc5522890f45aab99544d9623222b624745a985f9d16acc0c0c7fa6b7107a29d0834dd4e468e4afb302c2af5085f968d99b8da3baaaad20714940902ce152",
+          "sha256": "0a4b3b6ae0d465905ac0dd64e282697bb0589cc0294eab921cb9976c9d7ce606",
+          "sha1": "3e4cbabfa51b326814dae1dea39eb4b6e21b5038",
+          "md5": "fe3079b2152c482b8288ae2a0616fd84"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-debug.aar",
+          "url": "fhir-android-debug-0.2.0-SNAPSHOT.aar",
+          "size": 16015805,
+          "sha512": "d0cfc5522890f45aab99544d9623222b624745a985f9d16acc0c0c7fa6b7107a29d0834dd4e468e4afb302c2af5085f968d99b8da3baaaad20714940902ce152",
+          "sha256": "0a4b3b6ae0d465905ac0dd64e282697bb0589cc0294eab921cb9976c9d7ce606",
+          "sha1": "3e4cbabfa51b326814dae1dea39eb4b6e21b5038",
+          "md5": "fe3079b2152c482b8288ae2a0616fd84"
+        }
+      ]
+    }
+  ]
+}

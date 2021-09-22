@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.2.0-SNAPSHOT/fhir-0.2.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.2.0-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.2.0-SNAPSHOT.jar",
+          "size": 16432606,
+          "sha512": "f27eeaf468cbafc1f9cb778c1afc6c4df08eabc097c176601959477bf5bca6c7d12603e6ef09835c21ca1a994c2a9cddf9c4de6be00144be5761980d332a28e3",
+          "sha256": "8d94531f963011707a33bccfdf6c2f36cc3ee5662642c06c6bebae66184098cb",
+          "sha1": "cb08b2f00a1fca659ba0680fd45f549797437873",
+          "md5": "15ab1dffb9617d7a3b0c2ebb0854fdca"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.2.0-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.2.0-SNAPSHOT.jar",
+          "size": 16432606,
+          "sha512": "f27eeaf468cbafc1f9cb778c1afc6c4df08eabc097c176601959477bf5bca6c7d12603e6ef09835c21ca1a994c2a9cddf9c4de6be00144be5761980d332a28e3",
+          "sha256": "8d94531f963011707a33bccfdf6c2f36cc3ee5662642c06c6bebae66184098cb",
+          "sha1": "cb08b2f00a1fca659ba0680fd45f549797437873",
+          "md5": "15ab1dffb9617d7a3b0c2ebb0854fdca"
+        }
+      ]
+    }
+  ]
+}
