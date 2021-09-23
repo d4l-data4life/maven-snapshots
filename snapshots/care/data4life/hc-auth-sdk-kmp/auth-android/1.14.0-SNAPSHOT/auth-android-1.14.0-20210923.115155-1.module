@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth/1.14.0-SNAPSHOT/auth-1.14.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-auth-sdk-kmp",
+    "module": "auth",
+    "version": "1.14.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "b72uofcnbrgb3mzx3tmuyy74bu"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "auth-release.aar",
+          "url": "auth-android-1.14.0-SNAPSHOT.aar",
+          "size": 49291,
+          "sha512": "6764858c0b9d16e6005069f0ea0ea4a6662ba2d9772fcda9aef942644c0b9de99ff98e4247357c48603a315f0f993464e97ad70870a8b0966168850b03c462c8",
+          "sha256": "2263c02880401faa11fd1b27b85fb9be742268def66cb7aff070ab7fbbe23bd2",
+          "sha1": "8caf447263a87b549207368f4a2de8807000efe3",
+          "md5": "c15cd9bb7d09c4822672539a6de41f1f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "net.openid",
+          "module": "appauth",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore",
+          "version": {
+            "requires": "1.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-release.aar",
+          "url": "auth-android-1.14.0-SNAPSHOT.aar",
+          "size": 49291,
+          "sha512": "6764858c0b9d16e6005069f0ea0ea4a6662ba2d9772fcda9aef942644c0b9de99ff98e4247357c48603a315f0f993464e97ad70870a8b0966168850b03c462c8",
+          "sha256": "2263c02880401faa11fd1b27b85fb9be742268def66cb7aff070ab7fbbe23bd2",
+          "sha1": "8caf447263a87b549207368f4a2de8807000efe3",
+          "md5": "c15cd9bb7d09c4822672539a6de41f1f"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../auth-metadata/1.14.0-SNAPSHOT/auth-metadata-1.14.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-metadata",
+        "version": "1.14.0-SNAPSHOT"
+      }
+    }
+  ]
+}
