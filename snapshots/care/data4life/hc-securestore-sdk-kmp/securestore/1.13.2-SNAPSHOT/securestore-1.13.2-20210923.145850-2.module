@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-securestore-sdk-kmp",
+    "module": "securestore",
+    "version": "1.13.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "securestore-metadata-1.13.2-SNAPSHOT.jar",
+          "url": "securestore-1.13.2-SNAPSHOT.jar",
+          "size": 7274,
+          "sha512": "db0153ed16dc5d3f94bb6e30e96a5bd15d561e6fcd627d98707a6ac1ca871157c1b49340d64d59af8abb8e18ee54f23fccd545f78aef69d133485bafa88010d5",
+          "sha256": "1f80369f3ee1ddb2fe77b4aff38ed0ff05dbb47211e473a43f9c9a6c73692c22",
+          "sha1": "3397a57dafb4f1f6890de44b22b750e122dd0647",
+          "md5": "02db4fcae55523db97cf2f75e025e833"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../securestore-android-debug/1.13.2-SNAPSHOT/securestore-android-debug-1.13.2-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-android-debug",
+        "version": "1.13.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../securestore-android-debug/1.13.2-SNAPSHOT/securestore-android-debug-1.13.2-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-android-debug",
+        "version": "1.13.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../securestore-android/1.13.2-SNAPSHOT/securestore-android-1.13.2-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-android",
+        "version": "1.13.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../securestore-android/1.13.2-SNAPSHOT/securestore-android-1.13.2-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-android",
+        "version": "1.13.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../securestore-jvm/1.13.2-SNAPSHOT/securestore-jvm-1.13.2-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-jvm",
+        "version": "1.13.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../securestore-jvm/1.13.2-SNAPSHOT/securestore-jvm-1.13.2-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-jvm",
+        "version": "1.13.2-SNAPSHOT"
+      }
+    }
+  ]
+}
