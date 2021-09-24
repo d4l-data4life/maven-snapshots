@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../crypto/1.13.2-SNAPSHOT/crypto-1.13.2-SNAPSHOT.module",
+    "group": "care.data4life.hc-crypto-sdk-kmp",
+    "module": "crypto",
+    "version": "1.13.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-release.aar",
+          "url": "crypto-android-1.13.2-SNAPSHOT.aar",
+          "size": 62667,
+          "sha512": "ecb60f45d2719cc2179c07eda55b176e6d2a7692be7f34fbd975c651972829e160f058cdd1080c765e7f941670c640b3f2b0593ff3e350d33d2a083cd705a43f",
+          "sha256": "0799698b9def118b13cf42a48f663071974334f154ee13b20416b955a08e49a0",
+          "sha1": "3a36ff33ee484cf8abaa9c425caf85ecb0fde98a",
+          "md5": "ead459624d76f619508009e39478fb33"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-release.aar",
+          "url": "crypto-android-1.13.2-SNAPSHOT.aar",
+          "size": 62667,
+          "sha512": "ecb60f45d2719cc2179c07eda55b176e6d2a7692be7f34fbd975c651972829e160f058cdd1080c765e7f941670c640b3f2b0593ff3e350d33d2a083cd705a43f",
+          "sha256": "0799698b9def118b13cf42a48f663071974334f154ee13b20416b955a08e49a0",
+          "sha1": "3a36ff33ee484cf8abaa9c425caf85ecb0fde98a",
+          "md5": "ead459624d76f619508009e39478fb33"
+        }
+      ]
+    }
+  ]
+}
