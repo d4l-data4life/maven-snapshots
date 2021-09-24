@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-SNAPSHOT/util-1.11.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util.klib",
+          "url": "util-iosarm64-1.11.0-SNAPSHOT.klib",
+          "size": 24862,
+          "sha512": "dc0d82d16ae5d91e1b0dafeee6caa7744b6b0627f372288b5e5fcd4b99268493be29975883a860a08d52c7a0b249994f3717a798d0153d77c8ed3d013aef7c35",
+          "sha256": "e2c4115a3e4c3b923d160fc6f59dd6d128fa19bb3bdda462b54542792ea04fc5",
+          "sha1": "98c855243c966ad0276f52e0c3571577395728b2",
+          "md5": "ca35cd0e7e4b827efa61e261d1c4e954"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-iosarm64-1.11.0-SNAPSHOT-metadata.jar",
+          "url": "util-iosarm64-1.11.0-SNAPSHOT-metadata.jar",
+          "size": 6110,
+          "sha512": "88b92b04384695106e8a2b5a106e2bed64d6be787107d929cf8e12864069b6ff571d7e07e91e2d5f7487ea23ddb13030daec4a6503e3d19fc8305d3fafc446ef",
+          "sha256": "51fade7e5e5a595f3d38daf25eb16a8fa919e5a5a1e0676da95198f08b3daf16",
+          "sha1": "f32c408152b1919e3135768b7a5776d168142bd9",
+          "md5": "e01c1a6bba27783540da42a5efe79904"
+        }
+      ]
+    }
+  ]
+}

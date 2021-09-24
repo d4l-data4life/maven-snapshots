@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-SNAPSHOT/util-1.11.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.11.0-SNAPSHOT.aar",
+          "size": 14681,
+          "sha512": "3b34edab2d09c16a4a5bb564704356af7b339ad9b869e82f9e68bfbd34b8094e4e9a748b881689da9f631805e4cecb3603766904e2339c69ef7afac5dc0d8a13",
+          "sha256": "23929c697ea7404ce124759d3fad04838a3bb4aeca39688ab600bbf3b3af173f",
+          "sha1": "87f5d8391d084fcfa00c0682bdd29a31e9fa7168",
+          "md5": "dd24c1c90e59194c119315704750c969"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.11.0-SNAPSHOT.aar",
+          "size": 14681,
+          "sha512": "3b34edab2d09c16a4a5bb564704356af7b339ad9b869e82f9e68bfbd34b8094e4e9a748b881689da9f631805e4cecb3603766904e2339c69ef7afac5dc0d8a13",
+          "sha256": "23929c697ea7404ce124759d3fad04838a3bb4aeca39688ab600bbf3b3af173f",
+          "sha1": "87f5d8391d084fcfa00c0682bdd29a31e9fa7168",
+          "md5": "dd24c1c90e59194c119315704750c969"
+        }
+      ]
+    }
+  ]
+}

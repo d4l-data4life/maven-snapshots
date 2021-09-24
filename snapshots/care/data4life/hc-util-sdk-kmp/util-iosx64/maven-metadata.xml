@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-iosx64</artifactId>
   <versioning>
-    <latest>1.10.0-SNAPSHOT</latest>
+    <latest>1.11.0-SNAPSHOT</latest>
     <release>1.8.1</release>
     <versions>
       <version>1.9.0-SNAPSHOT</version>
       <version>1.10.0-SNAPSHOT</version>
+      <version>1.11.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210920135700</lastUpdated>
+    <lastUpdated>20210924085629</lastUpdated>
   </versioning>
 </metadata>
