@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-helper/1.7.1-SNAPSHOT/fhir-helper-1.7.1-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper",
+    "version": "1.7.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error-android",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-debug.aar",
+          "url": "fhir-helper-android-debug-1.7.1-SNAPSHOT.aar",
+          "size": 113822,
+          "sha512": "0514e7c24a4020b27d8711e9dc1f378d69368a5a95c7e2da82af38ba08fb0fe2d12ab3c4ffde6825c5f76c88918e872a4b7bac4952cc1ad519dd90ea3a221778",
+          "sha256": "8b0660262f46182458e4e508ca0fe2b8155494a6905bbb86e473cbeea61ce654",
+          "sha1": "9175eb456a21c1abfe71ad97c4ebab069dea1821",
+          "md5": "292c89ed7389109c0daf60da6ce92c73"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error-android",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-debug.aar",
+          "url": "fhir-helper-android-debug-1.7.1-SNAPSHOT.aar",
+          "size": 113822,
+          "sha512": "0514e7c24a4020b27d8711e9dc1f378d69368a5a95c7e2da82af38ba08fb0fe2d12ab3c4ffde6825c5f76c88918e872a4b7bac4952cc1ad519dd90ea3a221778",
+          "sha256": "8b0660262f46182458e4e508ca0fe2b8155494a6905bbb86e473cbeea61ce654",
+          "sha1": "9175eb456a21c1abfe71ad97c4ebab069dea1821",
+          "md5": "292c89ed7389109c0daf60da6ce92c73"
+        }
+      ]
+    }
+  ]
+}
