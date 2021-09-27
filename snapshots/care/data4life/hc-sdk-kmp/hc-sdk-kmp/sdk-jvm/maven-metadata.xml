@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-sdk-kmp.hc-sdk-kmp</groupId>
+  <artifactId>sdk-jvm</artifactId>
+  <versioning>
+    <latest>1.15.1-SNAPSHOT</latest>
+    <versions>
+      <version>1.15.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210927111318</lastUpdated>
+  </versioning>
+</metadata>
