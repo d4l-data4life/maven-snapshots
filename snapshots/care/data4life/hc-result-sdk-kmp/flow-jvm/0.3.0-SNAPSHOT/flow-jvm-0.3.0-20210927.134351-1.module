@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../flow/0.3.0-SNAPSHOT/flow-0.3.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "flow",
+    "version": "0.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-jvm-0.3.0-SNAPSHOT.jar",
+          "url": "flow-jvm-0.3.0-SNAPSHOT.jar",
+          "size": 10281,
+          "sha512": "15477da46c39d3d4832c6f3a69d8639a393490b79371b553315c70b46efd4d972bd940c07d28f5e59996d8cd921b6ddb0f54a3dc39212cd7d43213f103fd9e0e",
+          "sha256": "6ca6b291f5f0010f90c6b337846209118ca41efeef8eb55e9e19376b777c58d8",
+          "sha1": "6f3aec9d681e0f9498a97f079b3b258bfd7c1204",
+          "md5": "e3910562f03e96d13e619e2dde659e70"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-jvm-0.3.0-SNAPSHOT.jar",
+          "url": "flow-jvm-0.3.0-SNAPSHOT.jar",
+          "size": 10281,
+          "sha512": "15477da46c39d3d4832c6f3a69d8639a393490b79371b553315c70b46efd4d972bd940c07d28f5e59996d8cd921b6ddb0f54a3dc39212cd7d43213f103fd9e0e",
+          "sha256": "6ca6b291f5f0010f90c6b337846209118ca41efeef8eb55e9e19376b777c58d8",
+          "sha1": "6f3aec9d681e0f9498a97f079b3b258bfd7c1204",
+          "md5": "e3910562f03e96d13e619e2dde659e70"
+        }
+      ]
+    }
+  ]
+}

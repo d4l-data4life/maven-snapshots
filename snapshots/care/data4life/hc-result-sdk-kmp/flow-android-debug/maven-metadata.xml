@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>flow-android-debug</artifactId>
   <versioning>
-    <latest>0.2.0-SNAPSHOT</latest>
+    <latest>0.3.0-SNAPSHOT</latest>
     <release>0.2.0-SNAPSHOT</release>
     <versions>
       <version>0.1.0-SNAPSHOT</version>
       <version>0.1.1-SNAPSHOT</version>
       <version>0.2.0-SNAPSHOT</version>
+      <version>0.3.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210922132447</lastUpdated>
+    <lastUpdated>20210927134521</lastUpdated>
   </versioning>
 </metadata>

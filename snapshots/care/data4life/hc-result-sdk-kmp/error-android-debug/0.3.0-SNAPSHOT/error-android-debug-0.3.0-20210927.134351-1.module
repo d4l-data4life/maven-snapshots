@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/0.3.0-SNAPSHOT/error-0.3.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "0.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "error-debug.aar",
+          "url": "error-android-debug-0.3.0-SNAPSHOT.aar",
+          "size": 3906,
+          "sha512": "358898fd833fe6ecd465ea59e01fdddd4bbaaf950129cb235313d1e65723fcdf02e5d681f9880449c5c30549a5ad1ace1a0cc276e8d0e562e1ab5471d90c5248",
+          "sha256": "fef0af9908618d4517eae071c591187caf99df3965996bddaa3f6077f4a3bfa5",
+          "sha1": "9feb83843ffd2433f95387bdb2d60e436f2c6fdb",
+          "md5": "1abed25a8a26c93dee6049b496d95fd9"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-debug.aar",
+          "url": "error-android-debug-0.3.0-SNAPSHOT.aar",
+          "size": 3906,
+          "sha512": "358898fd833fe6ecd465ea59e01fdddd4bbaaf950129cb235313d1e65723fcdf02e5d681f9880449c5c30549a5ad1ace1a0cc276e8d0e562e1ab5471d90c5248",
+          "sha256": "fef0af9908618d4517eae071c591187caf99df3965996bddaa3f6077f4a3bfa5",
+          "sha1": "9feb83843ffd2433f95387bdb2d60e436f2c6fdb",
+          "md5": "1abed25a8a26c93dee6049b496d95fd9"
+        }
+      ]
+    }
+  ]
+}
