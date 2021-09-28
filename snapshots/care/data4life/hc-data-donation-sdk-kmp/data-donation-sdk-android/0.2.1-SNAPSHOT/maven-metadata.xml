@@ -5,31 +5,31 @@
   <version>0.2.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210928.183740</timestamp>
-      <buildNumber>11</buildNumber>
+      <timestamp>20210928.190531</timestamp>
+      <buildNumber>12</buildNumber>
     </snapshot>
-    <lastUpdated>20210928183740</lastUpdated>
+    <lastUpdated>20210928190531</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>0.2.1-20210928.183740-11</value>
-        <updated>20210928183740</updated>
+        <value>0.2.1-20210928.190531-12</value>
+        <updated>20210928190531</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.2.1-20210928.183740-11</value>
-        <updated>20210928183740</updated>
+        <value>0.2.1-20210928.190531-12</value>
+        <updated>20210928190531</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.2.1-20210928.183740-11</value>
-        <updated>20210928183740</updated>
+        <value>0.2.1-20210928.190531-12</value>
+        <updated>20210928190531</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.2.1-20210928.183740-11</value>
-        <updated>20210928183740</updated>
+        <value>0.2.1-20210928.190531-12</value>
+        <updated>20210928190531</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
