@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor/0.3.0-SNAPSHOT/test-util-ktor-0.3.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-debug.aar",
+          "url": "test-util-ktor-android-debug-0.3.0-SNAPSHOT.aar",
+          "size": 26687,
+          "sha512": "153f5d057c6d2d717dfa17b2d61e80cfdb865357dadf2fe400dc9468e4919186f0d8164d33f4b68bd22f0a56e301331263b13ee82018f459af7cda4459ebdac4",
+          "sha256": "59ba779f43adfb443dde0ef376cbd51b7a5f35c8de3db8f8ad59c248e2c2c09e",
+          "sha1": "7eaec487d65906c069ac3e4dd899c787a8c94841",
+          "md5": "eab8093adcf12d7c378f304a46377777"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.8"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.8"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-debug.aar",
+          "url": "test-util-ktor-android-debug-0.3.0-SNAPSHOT.aar",
+          "size": 26687,
+          "sha512": "153f5d057c6d2d717dfa17b2d61e80cfdb865357dadf2fe400dc9468e4919186f0d8164d33f4b68bd22f0a56e301331263b13ee82018f459af7cda4459ebdac4",
+          "sha256": "59ba779f43adfb443dde0ef376cbd51b7a5f35c8de3db8f8ad59c248e2c2c09e",
+          "sha1": "7eaec487d65906c069ac3e4dd899c787a8c94841",
+          "md5": "eab8093adcf12d7c378f304a46377777"
+        }
+      ]
+    }
+  ]
+}

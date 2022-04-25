@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor/0.3.0-SNAPSHOT/test-util-ktor-0.3.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor.klib",
+          "url": "test-util-ktor-iosarm64-0.3.0-SNAPSHOT.klib",
+          "size": 15772,
+          "sha512": "e8cfcf34869e3bbd205bf4871362cae0f70555f3fc2a203063f6f80e29b47e7cbed06ef904c18027610a779232f65f46ad32f0c788101d1178af0133399a0497",
+          "sha256": "640de9ad2f664cc8515e5992d5600f8ee9428442f762b32ad2afc7cc9c12c616",
+          "sha1": "835dde8e84698a54ef79ba4aa97355da630f6e07",
+          "md5": "eeab497d7bac5d84b3a32b75402288fe"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-iosarm64-0.3.0-SNAPSHOT-metadata.jar",
+          "url": "test-util-ktor-iosarm64-0.3.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "adf76e22e0c2bc317e2e3a62499a183a27eb92dd091f4dbef84ca1f5bc2a8ad41c5dcba7efead5a39d7375f2288165dee70a7a075903b3e6a5a8369d7bdcede8",
+          "sha256": "5c86dc0418bfdc00e9064e25829fbc3920789a92fb4f9ca9e0cbe29d4a485d32",
+          "sha1": "f17a7761ddc0e41d96b80eab53ea58b55ac93c2f",
+          "md5": "c59ef7108c6bd2a088120e564df4c1fe"
+        }
+      ]
+    }
+  ]
+}

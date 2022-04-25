@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.3.0-SNAPSHOT/test-util-0.3.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "test-util-release.aar",
+          "url": "test-util-android-0.3.0-SNAPSHOT.aar",
+          "size": 7965,
+          "sha512": "518a02c6568d0585447c53bb69782c6580106d9793e621660d16898a959d61e2dbfcb8bacd8191d4cc8a2df44a387ee4819470816caa8454fa99012d96848454",
+          "sha256": "c41244c6f03fb9ccd8c7646fc5b16c13e404529c5b5803ba67c2f9765c60749d",
+          "sha1": "3697ce063c3132dc416929e0a33e3ae082108c0d",
+          "md5": "2782335e76113a0ee38b6d119b46ad25"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.robolectric",
+          "module": "robolectric",
+          "version": {
+            "requires": "4.7.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-release.aar",
+          "url": "test-util-android-0.3.0-SNAPSHOT.aar",
+          "size": 7965,
+          "sha512": "518a02c6568d0585447c53bb69782c6580106d9793e621660d16898a959d61e2dbfcb8bacd8191d4cc8a2df44a387ee4819470816caa8454fa99012d96848454",
+          "sha256": "c41244c6f03fb9ccd8c7646fc5b16c13e404529c5b5803ba67c2f9765c60749d",
+          "sha1": "3697ce063c3132dc416929e0a33e3ae082108c0d",
+          "md5": "2782335e76113a0ee38b6d119b46ad25"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor/0.3.0-SNAPSHOT/test-util-ktor-0.3.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.3.0-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.3.0-SNAPSHOT.jar",
+          "size": 28739,
+          "sha512": "f55700ede74eca9b71dc37c43e309ef6ddfc440d4bfd77fe6d3802dc102295975b27e2098e88337a3a4654448f9620530bc593d3bb3e4916c2533665b3833843",
+          "sha256": "55cde9f6325f1593f4ae6aa60620c3ff0b478710c0a101efb8e8ba0b68724d2c",
+          "sha1": "03bc787158287bf2d05f7bba65da1407aed1bb90",
+          "md5": "3195fec75ceb674d34fc65f97cf49b4c"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.3.0-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.3.0-SNAPSHOT.jar",
+          "size": 28739,
+          "sha512": "f55700ede74eca9b71dc37c43e309ef6ddfc440d4bfd77fe6d3802dc102295975b27e2098e88337a3a4654448f9620530bc593d3bb3e4916c2533665b3833843",
+          "sha256": "55cde9f6325f1593f4ae6aa60620c3ff0b478710c0a101efb8e8ba0b68724d2c",
+          "sha1": "03bc787158287bf2d05f7bba65da1407aed1bb90",
+          "md5": "3195fec75ceb674d34fc65f97cf49b4c"
+        }
+      ]
+    }
+  ]
+}
