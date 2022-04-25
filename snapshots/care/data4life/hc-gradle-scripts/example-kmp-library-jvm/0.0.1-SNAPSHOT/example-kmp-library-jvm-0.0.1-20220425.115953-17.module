@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../example-kmp-library/0.0.1-SNAPSHOT/example-kmp-library-0.0.1-SNAPSHOT.module",
+    "group": "care.data4life.hc-gradle-scripts",
+    "module": "example-kmp-library",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-SNAPSHOT.jar",
+          "size": 16589,
+          "sha512": "f2965d03009a016786a8a6e3f4ae0453ef4de9a154ddd5e3e13bc6e25ebea7c9af639563a1a567b90057a97c0a3aa4daf6e9a84593d00a3a6b834758646e409f",
+          "sha256": "7c1006fd2d8bd1ff2d342762124e31dac23635e390d2bf2a69d70dcb50644bb9",
+          "sha1": "faf791654fa65bdd9ac110f1922eca828aa75e44",
+          "md5": "b66c9f5a1713e0615714a7c414d61430"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-SNAPSHOT.jar",
+          "size": 16589,
+          "sha512": "f2965d03009a016786a8a6e3f4ae0453ef4de9a154ddd5e3e13bc6e25ebea7c9af639563a1a567b90057a97c0a3aa4daf6e9a84593d00a3a6b834758646e409f",
+          "sha256": "7c1006fd2d8bd1ff2d342762124e31dac23635e390d2bf2a69d70dcb50644bb9",
+          "sha1": "faf791654fa65bdd9ac110f1922eca828aa75e44",
+          "md5": "b66c9f5a1713e0615714a7c414d61430"
+        }
+      ]
+    }
+  ]
+}

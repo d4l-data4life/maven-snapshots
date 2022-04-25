@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../example-kmp-library/0.0.1-SNAPSHOT/example-kmp-library-0.0.1-SNAPSHOT.module",
+    "group": "care.data4life.hc-gradle-scripts",
+    "module": "example-kmp-library",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "example-kmp-library-debug.aar",
+          "url": "example-kmp-library-android-debug-0.0.1-SNAPSHOT.aar",
+          "size": 15236,
+          "sha512": "afa3d85e0dda406e39e7202cc560f229f266294043a88e96edb7d206dbed10f37226991124705865819208da469cbc90f9b8d01f4095ddbe90bebfe423e75e6d",
+          "sha256": "dbf5219921d29589030e2e67a562448432cb3fd589ae7f1188c36eebff6fdb41",
+          "sha1": "c7d567ccdba397ba25b170f55499f0ee2b601e90",
+          "md5": "a6b31e2cffdade5b4911c17b68b73570"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "example-kmp-library-debug.aar",
+          "url": "example-kmp-library-android-debug-0.0.1-SNAPSHOT.aar",
+          "size": 15236,
+          "sha512": "afa3d85e0dda406e39e7202cc560f229f266294043a88e96edb7d206dbed10f37226991124705865819208da469cbc90f9b8d01f4095ddbe90bebfe423e75e6d",
+          "sha256": "dbf5219921d29589030e2e67a562448432cb3fd589ae7f1188c36eebff6fdb41",
+          "sha1": "c7d567ccdba397ba25b170f55499f0ee2b601e90",
+          "md5": "a6b31e2cffdade5b4911c17b68b73570"
+        }
+      ]
+    }
+  ]
+}
