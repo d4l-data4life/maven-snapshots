@@ -5,37 +5,37 @@
   <version>0.3.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20220425.134016</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20220425.141135</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20220425134016</lastUpdated>
+    <lastUpdated>20220425141135</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>0.3.0-20220425.134016-1</value>
-        <updated>20220425134016</updated>
+        <value>0.3.0-20220425.141135-2</value>
+        <updated>20220425141135</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.3.0-20220425.134016-1</value>
-        <updated>20220425134016</updated>
+        <value>0.3.0-20220425.141135-2</value>
+        <updated>20220425141135</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.3.0-20220425.141135-2</value>
+        <updated>20220425141135</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.3.0-20220425.134016-1</value>
-        <updated>20220425134016</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.3.0-20220425.134016-1</value>
-        <updated>20220425134016</updated>
+        <value>0.3.0-20220425.141135-2</value>
+        <updated>20220425141135</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.3.0-20220425.134016-1</value>
-        <updated>20220425134016</updated>
+        <value>0.3.0-20220425.141135-2</value>
+        <updated>20220425141135</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
