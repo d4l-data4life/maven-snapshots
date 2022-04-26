@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-SNAPSHOT/util-1.11.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.11.0-SNAPSHOT.aar",
+          "size": 14580,
+          "sha512": "096d6b7b775070a73c7fcba27954bec65bec88540f9ececf57365ec1d948384ff8360fc2084c45d65d4b092561babffbac660220d43a2e469e3a4aefc5c1dbfd",
+          "sha256": "0766b48b8722abfbc24372f382f857fe6f2ce196f7c88074d52b32094bc1a556",
+          "sha1": "3f44c8860e25bb21427319c959d8265faadd8660",
+          "md5": "b216539511df48b8c88f431a8ed647fa"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.11.0-SNAPSHOT.aar",
+          "size": 14580,
+          "sha512": "096d6b7b775070a73c7fcba27954bec65bec88540f9ececf57365ec1d948384ff8360fc2084c45d65d4b092561babffbac660220d43a2e469e3a4aefc5c1dbfd",
+          "sha256": "0766b48b8722abfbc24372f382f857fe6f2ce196f7c88074d52b32094bc1a556",
+          "sha1": "3f44c8860e25bb21427319c959d8265faadd8660",
+          "md5": "b216539511df48b8c88f431a8ed647fa"
+        }
+      ]
+    }
+  ]
+}
