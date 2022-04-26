@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/1.11.0-SNAPSHOT/error-1.11.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "error",
+    "version": "1.11.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error.klib",
+          "url": "error-iosarm64-1.11.0-SNAPSHOT.klib",
+          "size": 7100,
+          "sha512": "6a4f00dfb2e9216859511612f28936ad8d04a46f89f7a35e065c792f2aebbbed129bc6e9fa6fd75be69976280c1af7bd9f7fa7b9da6b0b7a07a1d9e5bcb18f2a",
+          "sha256": "0b55087a1d26b454ca975f26d916e1a2c1683541cac36e4bb3c83814aea82ef9",
+          "sha1": "ae441be4e76b509af8a51da13be61d0a4466d154",
+          "md5": "b4f80a90b3d3852b8bb6054d132887c1"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-iosarm64-1.11.0-SNAPSHOT-metadata.jar",
+          "url": "error-iosarm64-1.11.0-SNAPSHOT-metadata.jar",
+          "size": 5010,
+          "sha512": "2738a9f36ef224fd99f7fadb6de97c6cbe4fbc69840f5701fc5a176feee58cfa92474d4361ff909864e21e7efd8f6dc779e76fc9cedbf2e2c986255a7e697073",
+          "sha256": "7916afc2dd82e37ac92f28867acf03c4844c6993e5adb069278363fc837aff87",
+          "sha1": "3b1f83e1e190c28ac21ab67f8155c005225750b8",
+          "md5": "945b4306326638b61a42421561a50a04"
+        }
+      ]
+    }
+  ]
+}

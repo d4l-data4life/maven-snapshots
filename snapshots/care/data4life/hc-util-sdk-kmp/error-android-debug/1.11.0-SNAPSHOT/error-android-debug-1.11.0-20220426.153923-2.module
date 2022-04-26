@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/1.11.0-SNAPSHOT/error-1.11.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "error",
+    "version": "1.11.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "error-debug.aar",
+          "url": "error-android-debug-1.11.0-SNAPSHOT.aar",
+          "size": 3914,
+          "sha512": "caac80abeca52be4c90c180ade434d7ed57202992a7c59f314187ad6b68a51461870331a4377e1b7c57c8b2bac6c1ffeb1c6bd9d8a9f0f70dd2837537af1551c",
+          "sha256": "d8da386bf184da58150e6e02ad709dbc42c4c91753df56aabfe78ee323777b98",
+          "sha1": "4183b0f4003e90f223a30870fbf94b9bff8b600e",
+          "md5": "eb40ef0d181a7c122a52f6846ea59857"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "error-debug.aar",
+          "url": "error-android-debug-1.11.0-SNAPSHOT.aar",
+          "size": 3914,
+          "sha512": "caac80abeca52be4c90c180ade434d7ed57202992a7c59f314187ad6b68a51461870331a4377e1b7c57c8b2bac6c1ffeb1c6bd9d8a9f0f70dd2837537af1551c",
+          "sha256": "d8da386bf184da58150e6e02ad709dbc42c4c91753df56aabfe78ee323777b98",
+          "sha1": "4183b0f4003e90f223a30870fbf94b9bff8b600e",
+          "md5": "eb40ef0d181a7c122a52f6846ea59857"
+        }
+      ]
+    }
+  ]
+}
