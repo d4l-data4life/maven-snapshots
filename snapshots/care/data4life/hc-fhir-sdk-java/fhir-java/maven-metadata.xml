@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-fhir-sdk-java</groupId>
   <artifactId>fhir-java</artifactId>
   <versioning>
-    <latest>1.7.0-SNAPSHOT</latest>
+    <latest>1.8.0-SNAPSHOT</latest>
     <versions>
       <version>1.6.1-SNAPSHOT</version>
       <version>1.6.2-SNAPSHOT</version>
       <version>1.6.3-SNAPSHOT</version>
       <version>1.7.0-SNAPSHOT</version>
+      <version>1.8.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220425143316</lastUpdated>
+    <lastUpdated>20220502080745</lastUpdated>
   </versioning>
 </metadata>
