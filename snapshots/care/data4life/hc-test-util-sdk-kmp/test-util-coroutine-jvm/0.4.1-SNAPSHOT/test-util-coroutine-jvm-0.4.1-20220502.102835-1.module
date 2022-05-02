@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.4.1-SNAPSHOT/test-util-coroutine-0.4.1-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.4.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.4.1-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.4.1-SNAPSHOT.jar",
+          "size": 6100,
+          "sha512": "79f1ff3a0c5d35ca5b5d001890f4ea8c4315fd99a803a9c3256172e251a37b3f3bbf191d0f6a6bc45759e63f522622ccd47bc93bc178c9643a79b27bc6e22925",
+          "sha256": "eada6c73a37cb6d65c56897001a43018c6012bb0fcebc3509e9f85d9a59d58f3",
+          "sha1": "866cf92eb707ebd7594f08882d74c1079bee7adb",
+          "md5": "3eea15be4003aea5eb219a8c10b6bc8e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.4.1-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.4.1-SNAPSHOT.jar",
+          "size": 6100,
+          "sha512": "79f1ff3a0c5d35ca5b5d001890f4ea8c4315fd99a803a9c3256172e251a37b3f3bbf191d0f6a6bc45759e63f522622ccd47bc93bc178c9643a79b27bc6e22925",
+          "sha256": "eada6c73a37cb6d65c56897001a43018c6012bb0fcebc3509e9f85d9a59d58f3",
+          "sha1": "866cf92eb707ebd7594f08882d74c1079bee7adb",
+          "md5": "3eea15be4003aea5eb219a8c10b6bc8e"
+        }
+      ]
+    }
+  ]
+}
