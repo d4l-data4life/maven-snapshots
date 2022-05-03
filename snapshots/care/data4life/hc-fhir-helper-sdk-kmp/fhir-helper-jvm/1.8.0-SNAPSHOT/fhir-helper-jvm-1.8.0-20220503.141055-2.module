@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-helper/1.8.0-SNAPSHOT/fhir-helper-1.8.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper",
+    "version": "1.8.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-jvm-1.8.0-SNAPSHOT.jar",
+          "url": "fhir-helper-jvm-1.8.0-SNAPSHOT.jar",
+          "size": 114498,
+          "sha512": "f7d59000bb2b4f78e2e1d2e03c4c2256b43b898b491d2e7e71953b5e7c4506d4b34bc12d97b2c8bcef09844de693218ba4ec129c0f7e2855262af088647f8fbb",
+          "sha256": "d3dda3d297970e9a6dcac3c4c8479f9c50ad2b7cd5ba7a1eefb4fb82f87a72f2",
+          "sha1": "5f02f95de7b2b20f35daff0ea8033878ec97c3fe",
+          "md5": "9a807f7c2fdef56dc42f6cfa55334c04"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-jvm-1.8.0-SNAPSHOT.jar",
+          "url": "fhir-helper-jvm-1.8.0-SNAPSHOT.jar",
+          "size": 114498,
+          "sha512": "f7d59000bb2b4f78e2e1d2e03c4c2256b43b898b491d2e7e71953b5e7c4506d4b34bc12d97b2c8bcef09844de693218ba4ec129c0f7e2855262af088647f8fbb",
+          "sha256": "d3dda3d297970e9a6dcac3c4c8479f9c50ad2b7cd5ba7a1eefb4fb82f87a72f2",
+          "sha1": "5f02f95de7b2b20f35daff0ea8033878ec97c3fe",
+          "md5": "9a807f7c2fdef56dc42f6cfa55334c04"
+        }
+      ]
+    }
+  ]
+}
