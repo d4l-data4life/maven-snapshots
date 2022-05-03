@@ -3,10 +3,11 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>error-android-debug</artifactId>
   <versioning>
-    <latest>1.11.0-SNAPSHOT</latest>
+    <latest>1.12.0-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-SNAPSHOT</version>
+      <version>1.12.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220426154048</lastUpdated>
+    <lastUpdated>20220503124504</lastUpdated>
   </versioning>
 </metadata>

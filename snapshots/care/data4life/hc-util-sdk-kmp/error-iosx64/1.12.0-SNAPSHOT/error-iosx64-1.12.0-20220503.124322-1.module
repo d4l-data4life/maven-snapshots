@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/1.12.0-SNAPSHOT/error-1.12.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "error",
+    "version": "1.12.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error.klib",
+          "url": "error-iosx64-1.12.0-SNAPSHOT.klib",
+          "size": 7084,
+          "sha512": "08a3df0a32bd3750cae0c2faf444a6242522c5c2a79314304ced4895b2924a5800930caa12628542d66d27d02842ff13d02943b3cae8412afce3b52f547dd57b",
+          "sha256": "e1b9021eea4f9658e0881ba9775e6783a99eb7d0edae177c5a94c35492a33656",
+          "sha1": "1dd27f6eec5ff37b2c463f05e739add985153bff",
+          "md5": "288c19a6148f5b0dfcc7c09598346aef"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-iosx64-1.12.0-SNAPSHOT-metadata.jar",
+          "url": "error-iosx64-1.12.0-SNAPSHOT-metadata.jar",
+          "size": 5010,
+          "sha512": "cdb3df518f5d481ad7fcb25ec070376c70e936e9e58e7305a9541c51e3b4aa6724b59b87ddf6b5fd097161918aa42e2a9a424032694535c7a0731774fcbc56ef",
+          "sha256": "5fa611ece5b4645bac68c3969ff42df93fb9c3403091f674892ae65210eccc09",
+          "sha1": "c31f37e460f5d7799b9292e8eebceacb287be968",
+          "md5": "6914a20a6a2a2507fa1fd018b8a17bec"
+        }
+      ]
+    }
+  ]
+}
