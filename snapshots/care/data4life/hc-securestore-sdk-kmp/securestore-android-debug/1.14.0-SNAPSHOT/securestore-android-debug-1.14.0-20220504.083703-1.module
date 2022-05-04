@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../securestore/1.14.0-SNAPSHOT/securestore-1.14.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-securestore-sdk-kmp",
+    "module": "securestore",
+    "version": "1.14.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-debug.aar",
+          "url": "securestore-android-debug-1.14.0-SNAPSHOT.aar",
+          "size": 32753,
+          "sha512": "4c6fc1a04ef19beea4e9cfebf7c53ef24a4f436b07b9e3a39c3e0cd1799ac455bfd1a6e281768b1a16614587c6c2823443c43f5a0ffe2ad3a8d332e6feb53956",
+          "sha256": "b88ba3e9c5e81fcde2f8fe4850f8661023c79e9a2ab9fcc119f725bba7f504ca",
+          "sha1": "058802df2cec376cfca65804a066c46871f597c4",
+          "md5": "e554f5f31a73b09a7fed872fd0bb2e33"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.13.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-debug.aar",
+          "url": "securestore-android-debug-1.14.0-SNAPSHOT.aar",
+          "size": 32753,
+          "sha512": "4c6fc1a04ef19beea4e9cfebf7c53ef24a4f436b07b9e3a39c3e0cd1799ac455bfd1a6e281768b1a16614587c6c2823443c43f5a0ffe2ad3a8d332e6feb53956",
+          "sha256": "b88ba3e9c5e81fcde2f8fe4850f8661023c79e9a2ab9fcc119f725bba7f504ca",
+          "sha1": "058802df2cec376cfca65804a066c46871f597c4",
+          "md5": "e554f5f31a73b09a7fed872fd0bb2e33"
+        }
+      ]
+    }
+  ]
+}
