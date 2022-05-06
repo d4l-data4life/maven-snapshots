@@ -73,10 +73,10 @@
           "name": "sdk-ingestion-1.16.0.jar",
           "url": "sdk-ingestion-1.16.0.jar",
           "size": 18417,
-          "sha512": "9b91a3a6ae55719226637573ffef7c87f37acde154f249dd334ade5512e402576be8f42358b7c17761855a6b1c033a6b654c31965b1ae1b1e13eb359074a3d78",
-          "sha256": "7ed5f1970444b02eb9c21af63f673ae19ca74bc14d1251177ef0f2d43939967e",
-          "sha1": "526e69e1f9f6df23378ec958bf8d71aa6e5bd2d8",
-          "md5": "e8c9ede548168e38dbab988d47c2a0a4"
+          "sha512": "2f3366b666223d6f107d052259e32a8f0a83bd2a098ad18efe4cd3186ba20dfe28337d643f47e49dcf3c11ba9114b7bab2b16a854248df400951edb50ab43ed9",
+          "sha256": "75ffa4690adbb2b084b963e7a11590c34f085e863066c83d8a917d3d8bfcb64a",
+          "sha1": "e2f20961c3b73ca6ee5ee1800596577e56ac9e9f",
+          "md5": "63ff7ebcdeaf2ce12c5939afa5f430e9"
         }
       ]
     },
@@ -357,10 +357,10 @@
           "name": "sdk-ingestion-1.16.0.jar",
           "url": "sdk-ingestion-1.16.0.jar",
           "size": 18417,
-          "sha512": "9b91a3a6ae55719226637573ffef7c87f37acde154f249dd334ade5512e402576be8f42358b7c17761855a6b1c033a6b654c31965b1ae1b1e13eb359074a3d78",
-          "sha256": "7ed5f1970444b02eb9c21af63f673ae19ca74bc14d1251177ef0f2d43939967e",
-          "sha1": "526e69e1f9f6df23378ec958bf8d71aa6e5bd2d8",
-          "md5": "e8c9ede548168e38dbab988d47c2a0a4"
+          "sha512": "2f3366b666223d6f107d052259e32a8f0a83bd2a098ad18efe4cd3186ba20dfe28337d643f47e49dcf3c11ba9114b7bab2b16a854248df400951edb50ab43ed9",
+          "sha256": "75ffa4690adbb2b084b963e7a11590c34f085e863066c83d8a917d3d8bfcb64a",
+          "sha1": "e2f20961c3b73ca6ee5ee1800596577e56ac9e9f",
+          "md5": "63ff7ebcdeaf2ce12c5939afa5f430e9"
         }
       ]
     }
