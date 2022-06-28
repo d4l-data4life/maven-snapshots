@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-auth-sdk-kmp</groupId>
+  <artifactId>auth-jvm</artifactId>
+  <version>1.15.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20220628.103635</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20220628103635</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.15.0-20220628.103635-1</value>
+        <updated>20220628103635</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.15.0-20220628.103635-1</value>
+        <updated>20220628103635</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.15.0-20220628.103635-1</value>
+        <updated>20220628103635</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.15.0-20220628.103635-1</value>
+        <updated>20220628103635</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
