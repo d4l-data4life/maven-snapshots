@@ -3,14 +3,15 @@
   <groupId>care.data4life.hc-crypto-sdk-kmp</groupId>
   <artifactId>crypto-android-debug</artifactId>
   <versioning>
-    <latest>1.15.0-SNAPSHOT</latest>
+    <latest>1.16.0-SNAPSHOT</latest>
     <release>1.13.2</release>
     <versions>
       <version>1.13.2</version>
       <version>1.13.2-SNAPSHOT</version>
       <version>1.14.0-SNAPSHOT</version>
       <version>1.15.0-SNAPSHOT</version>
+      <version>1.16.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220822105157</lastUpdated>
+    <lastUpdated>20220822121305</lastUpdated>
   </versioning>
 </metadata>
