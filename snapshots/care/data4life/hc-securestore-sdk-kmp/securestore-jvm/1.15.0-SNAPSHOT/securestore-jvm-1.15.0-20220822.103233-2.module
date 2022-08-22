@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../securestore/1.15.0-SNAPSHOT/securestore-1.15.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-securestore-sdk-kmp",
+    "module": "securestore",
+    "version": "1.15.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "securestore-jvm-1.15.0-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.15.0-SNAPSHOT.jar",
+          "size": 16628,
+          "sha512": "3df546ea7aafa558d4c47b11e7bb81783262799cac64b5a0e4aa4620373f5c026808253dd521ea80bdfca7f948d8fbd325617362cb6ea8d7c3c69f054b1a3d13",
+          "sha256": "026b0a23616903b33183ec975ddfe4486d67454830a22b4fbb5c9143aa9a4980",
+          "sha1": "9e4889009bf8680616e9c902343b17a8bb503cd4",
+          "md5": "8ee288c9e3b0dd54055876a9d9b4f9b0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.15.0-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.15.0-SNAPSHOT.jar",
+          "size": 16628,
+          "sha512": "3df546ea7aafa558d4c47b11e7bb81783262799cac64b5a0e4aa4620373f5c026808253dd521ea80bdfca7f948d8fbd325617362cb6ea8d7c3c69f054b1a3d13",
+          "sha256": "026b0a23616903b33183ec975ddfe4486d67454830a22b4fbb5c9143aa9a4980",
+          "sha1": "9e4889009bf8680616e9c902343b17a8bb503cd4",
+          "md5": "8ee288c9e3b0dd54055876a9d9b4f9b0"
+        }
+      ]
+    }
+  ]
+}
