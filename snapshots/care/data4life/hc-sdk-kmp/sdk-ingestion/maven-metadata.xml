@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-ingestion</artifactId>
   <versioning>
-    <latest>1.16.0-SNAPSHOT</latest>
+    <latest>1.17.0-SNAPSHOT</latest>
     <versions>
       <version>1.14.0-SNAPSHOT</version>
       <version>1.15.0-SNAPSHOT</version>
       <version>1.15.1-SNAPSHOT</version>
       <version>1.16.0-SNAPSHOT</version>
+      <version>1.17.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220823091922</lastUpdated>
+    <lastUpdated>20220829111720</lastUpdated>
   </versioning>
 </metadata>
